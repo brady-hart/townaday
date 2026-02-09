@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-WLQDW9907T"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	
-	  gtag('config', 'G-WLQDW9907T');
-	</script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WLQDW9907T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-WLQDW9907T');
+    </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Town-A-Day | Daily Geo Game</title>
@@ -144,6 +144,13 @@
             box-shadow: 6px 8px 20px #0000007d;
             gap: 45px;
         }
+        @media (max-width: 768px) {
+            #start-screen {
+                width: 380px;
+                height: 300px;
+                top: 20%;
+            }
+        }
         #failure-screen, #victory-screen {
             position: fixed;
             display: none;
@@ -162,6 +169,11 @@
         #failure-screen {
             background: #949494;
         }
+        @media (max-width: 768px) {
+            #failure-screen, #victory-screen {
+                transform: scale(.9) translate(0%, -25%)
+            }
+        }
         #share-screen {
             position: fixed;
             display: none;
@@ -176,6 +188,11 @@
             background: linear-gradient(to right, #212128, #212128);
             box-shadow: 6px 8px 20px #0000007d;
             gap: 0px;
+        }
+        @media (max-width: 768px) {
+            #share-screen {
+                transform: scale(.9) translate(0%, -35%)
+            }
         }
         @keyframes victory-breathe {
             0%   { transform: scale(1); }
@@ -254,6 +271,11 @@
             background: linear-gradient(to right, #212128, #212128);
             box-shadow: 6px 8px 20px #0000007d;
             z-index: 10;
+        }
+        @media (max-width: 768px) {
+            #selected-toolbar {
+                transform: translate(0%, -15%)
+            }
         }
         #guessmarker-bar {
             display: flex;
@@ -487,6 +509,11 @@
             font-size: 24px;
             padding: 20px 25px 20px;
         }
+        @media (max-width: 768px) {
+            #close-btn-1 {
+                transform: translate(0, -30px);
+            }
+        }
         .filter-btn {
             width: 45px;
             height: 45px;
@@ -513,6 +540,11 @@
         .filter-btn.is-active {
             background-image: url('./assets/ui_filter_active.png');
             background-color: transparent;
+        }
+        @media (max-width: 768px) {
+            .filter-btn {
+                width: 38px;
+            }
         }
         #end-screen-darkener {
             display: none;
@@ -715,6 +747,7 @@
         arabic: `./assets/cards/card_language_arabic.png`,
         arabicenglish: `./assets/cards/card_language_arabicenglish.png`,
         bengali: `./assets/cards/card_language_bengali.png`,
+        bengalienglish: `./assets/cards/card_language_bengalienglish.png`,
         cantonese: `./assets/cards/card_language_cantonese.png`,
         spanish: `./assets/cards/card_language_spanish.png`,
         french: `./assets/cards/card_language_french.png`,
@@ -735,6 +768,7 @@
         portuguese: `./assets/cards/card_language_portuguese.png`,
         russian: `./assets/cards/card_language_russian.png`,
         tagalog: `./assets/cards/card_language_tagalog.png`,
+        tamilenglish: `./assets/cards/card_language_tamilenglish.png`,
         thai: `./assets/cards/card_language_thai.png`,
         turkish: `./assets/cards/card_language_turkish.png`,
         urdu: `./assets/cards/card_language_urdu.png`,

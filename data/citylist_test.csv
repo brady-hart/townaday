@@ -1,0 +1,151 @@
+﻿name,lng,lat,country,population_simple_maps,size_tag,climate_tag,elevation_tag,language_tag,build_tag,active,draw,guessed,rank,name_native,wiki,climate_wiki,climate_elaboration,elevation,language1,language2,language1_wiki,timezone_wiki,name_local
+Tokyo,139.6922,35.6897,Japan,37732000,20xlmega,biseasonal,Sealevel City,Japanese,Hypercity,TRUE,guaranteed,FALSE,1,東京,Tokyo,Humid_subtropical_climate,,40 m (131 ft),日本語,0,Japanese_language,UTC%2B09:00,Tokyo
+Jakarta,106.8275,-6.175,Indonesia,33756000,20xlmega,monsoonalrainworld,Sealevel City,Indonesian,Mixed Metro,TRUE,guaranteed,FALSE,2,Jakarta,Jakarta,Tropical_monsoon_climate,,8 m (26 ft),Bahasa Indonesia,0,Indonesian_language,UTC%2B07:00,Jakarta
+Delhi,77.23,28.61,India,32226000,20xlmega,biseasonal,Lowland,Hindi + English,Mixed Metro,TRUE,guaranteed,FALSE,3,नई दिल्ली,New_Delhi,Humid_subtropical_climate,,216 m (708.62 ft),हिन्दी,English,Hindi,UTC%2B05:30,Delhi
+Guangzhou,113.26,23.13,China,26940000,20xlmega,biseasonal,Sealevel City,Cantonese,Hypercity,TRUE,guaranteed,FALSE,4,广州市,Guangzhou,Humid_subtropical_climate,,21 m (69 ft),廣州話,中文,Cantonese,UTC%2B08:00,Guangzhou
+Mumbai,72.8775,19.0761,India,24973000,20xlmega,tropicalsunscape,Sealevel City,Marathi + Hindi,Mixed Metro,TRUE,guaranteed,FALSE,5,मुंबई,Mumbai,Tropical_savanna_climate,,14 m (46 ft),मराठी,हिन्दी,Marathi_language,UTC%2B05:30,Mumbai
+Manila,120.9772,14.5958,Philippines,24922000,20xlmega,monsoonalrainworld,Sealevel City,Tagalog,Mixed Metro,TRUE,guaranteed,FALSE,6,Maynila,Manila,Tropical_monsoon_climate,,9.0 m (29.5 ft),Tagalog,0,Tagalog_language,UTC%2B08:00,Manila
+Shanghai,121.4747,31.2286,China,24073000,20xlmega,biseasonal,Sealevel City,Mandarin,Hypercity,TRUE,guaranteed,FALSE,7,上海市,Shanghai,Humid_subtropical_climate,,4 m (13 ft),中文,0,Standard_Chinese,UTC%2B08:00,Shanghai
+Sao Paulo,-46.6333,-23.55,Brazil,23086000,20xlmega,biseasonal,Hill Haven,Portuguese,Mixed Metro,TRUE,guaranteed,FALSE,8,São Paulo,São_Paulo,Humid_subtropical_climate,,"760 m (2,500 ft)",Português,0,Portuguese_language,UTC−03:00,S√£o Paulo
+Seoul,126.99,37.56,"Korea, South",23016000,20xlmega,dynamicseasonal,Sealevel City,Korean,Hypercity,TRUE,guaranteed,FALSE,9,서울,Seoul,Humid_continental_climate,,38 m (125 ft),한국어,0,Korean_language,UTC%2B09:00,Seoul
+Mexico City,-99.1333,19.4333,Mexico,21804000,20xlmega,highlandrainworld,Mountain Metro,Spanish,Mixed Metro,TRUE,guaranteed,FALSE,10,Ciudad de México,Mexico_City,"Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",,"2,240 m (7,350 ft)",Español,0,Spanish_language,UTC−06:00,Mexico City
+Cairo,31.2358,30.0444,Egypt,20296000,20xlmega,drydesert,Sealevel City,Arabic,Boomtown,TRUE,guaranteed,FALSE,11,القاهرة,Cairo,Desert_climate#Hot_desert_climates,,23 m (75 ft),عربي,0,Arabic_language,UTC%2B02:00,Cairo
+New York,-73.9249,40.6943,United States,18908608,15lmega,biseasonal,Sealevel City,English,Modern Classic,TRUE,guaranteed,FALSE,12,New York,New_York_City,Humid_subtropical_climate,,0 ft (0 m),English,0,English_language,UTC−05:00,New York
+Dhaka,90.3889,23.7639,Bangladesh,18627000,15lmega,tropicalsunscape,Sealevel City,Bengali,Mixed Metro,TRUE,guaranteed,FALSE,13,ঢাকা,Dhaka,Tropical_savanna_climate,,32 m (104.96 ft),বাংলা,0,Bengali_language,UTC%2B06:00,Dhaka
+Beijing,116.3975,39.9067,China,18522000,15lmega,dynamicseasonal,Sealevel City,Mandarin,Modern Classic,TRUE,guaranteed,FALSE,14,北京市,Beijing,Humid_continental_climate,,43.5 m (142.7 ft),中文,0,Standard_Chinese,UTC%2B08:00,Beijing
+Kolkata,88.37,22.5675,India,18502000,15lmega,tropicalsunscape,Sealevel City,Bengali + English,Mixed Metro,TRUE,guaranteed,FALSE,15,Kolkata,Kolkata,Tropical_savanna_climate,,9 m (30 ft),বাংলা,English,Bengali_language,UTC%2B05:30,KolkƒÅta
+Bangkok,100.4942,13.7525,Thailand,18007000,15lmega,tropicalsunscape,Sealevel City,Thai,Boomtown,TRUE,guaranteed,FALSE,16,กรุงเทพมหานคร,Bangkok,Tropical_savanna_climate,,1.5 m (4.9 ft),ภาษาไทย,0,Thai_language,UTC%2B07:00,Bangkok
+Shenzhen,114.0596,22.5415,China,17619000,15lmega,biseasonal,Sealevel City,Mandarin,Hypercity,TRUE,guaranteed,FALSE,17,深圳市,Shenzhen,Humid_subtropical_climate,,"0–943.7 m (0–3,145.7 ft)",中文,0,Standard_Chinese,UTC%2B08:00,Shenzhen
+Moscow,37.6172,55.7558,Russia,17332000,15lmega,dynamicseasonal,Lowland,Russian,Modern Classic,TRUE,guaranteed,FALSE,18,Москва,Moscow,Humid_continental_climate,,156 m (512 ft),русский,0,Russian_language,UTC%2B03:00,Moscow
+Buenos Aires,-58.3817,-34.6033,Argentina,16710000,15lmega,biseasonal,Sealevel City,Spanish,Modern Classic,TRUE,guaranteed,FALSE,19,Buenos Aires,Buenos_Aires,Humid_subtropical_climate,,25 m (82 ft),Español,0,Spanish_language,UTC−03:00,Buenos Aires
+Lagos,3.3841,6.455,Nigeria,16637000,15lmega,tropicalsunscape,Sealevel City,English,Boomtown,TRUE,guaranteed,FALSE,20,Lagos,Lagos,Tropical_savanna_climate,,41 m (135 ft),English,0,English_language,UTC%2B01:00,Lagos
+Istanbul,28.955,41.0136,Turkey,16079000,15lmega,mildmagic,Sealevel City,Turkish,Historic Heart,TRUE,guaranteed,FALSE,21,İstanbul,Istanbul,Temperate_climate,,0 ft (0 m),Türkçe,0,Turkish_language,UTC%2B03:00,Istanbul
+Karachi,67.01,24.86,Pakistan,15738000,15lmega,sunnydryland,Sealevel City,Urdu,Boomtown,TRUE,guaranteed,FALSE,22,کراچی,Karachi,Semi-arid_climate,,10 m (30 ft),اُردُو,English,Urdu,UTC%2B05:00,Karachi
+Bengaluru,77.5917,12.9789,India,15386000,15lmega,tropicalsunscape,Hill Haven,Kannada,Boomtown,TRUE,guaranteed,FALSE,23,ಬೆಂಗಳೂರು,Bengaluru,Tropical_savanna_climate,,"920 m (3,020 ft)",ಕನ್ನಡ,0,Kannada,UTC%2B05:30,Bangalore
+Ho Chi Minh City,106.7019,10.7756,Vietnam,15136000,15lmega,tropicalsunscape,Sealevel City,Vietnamese,Boomtown,TRUE,guaranteed,FALSE,24,Thành phố Hồ Chí Minh,Ho_Chi_Minh_City,Tropical_savanna_climate,,19 m (63 ft),Tiếng Việt,0,Vietnamese_language,UTC%2B07:00,Ho Chi Minh City
+Osaka,135.5022,34.6939,Japan,15126000,15lmega,biseasonal,Sealevel City,Japanese,Hypercity,TRUE,guaranteed,FALSE,25,大阪市,Osaka,Humid_subtropical_climate,,−2.2 m (−7.2 ft),日本語,0,Japanese_language,UTC%2B09:00,≈åsaka
+Chengdu,104.0633,30.66,China,14645000,10mega,biseasonal,Hill Haven,Mandarin,Hypercity,TRUE,guaranteed,FALSE,26,成都市,Chengdu,Humid_subtropical_climate,,"500 m (1,600 ft)",中文,0,Standard_Chinese,UTC%2B08:00,Chengdu
+Tehran,51.3889,35.6892,Iran,14148000,10mega,sunnydryland,Mountain Metro,Persian,Modern Classic,TRUE,guaranteed,FALSE,27,تهران,Tehran,Semi-arid_climate,,"1500 m (4,500 ft)",فارسی,0,Persian_language,UTC%2B03:30,Tehran
+Kinshasa,15.3119,-4.3219,Congo (Kinshasa),12836000,10mega,tropicalsunscape,Lowland,French + Lingala,Boomtown,TRUE,guaranteed,FALSE,28,Ville de Kinshasa,Kinshasa,Tropical_savanna_climate,,240 m (790 ft),français,0,French_language,UTC%2B01:00,Kinshasa
+Rio de Janeiro,-43.2056,-22.9111,Brazil,12592000,10mega,tropicalsunscape,Sealevel City,Portuguese,Mixed Metro,TRUE,guaranteed,FALSE,29,Rio de Janeiro,Rio_de_Janeiro,Tropical_savanna_climate,,2 m (7 ft),Português,0,Portuguese_language,UTC−03:00,Rio de Janeiro
+Chennai,80.275,13.0825,India,12395000,10mega,tropicalsunscape,Sealevel City,Tamil + English,Mixed Metro,TRUE,guaranteed,FALSE,30,சென்னை,Chennai,Tropical_savanna_climate,,7 m (23 ft),தமிழ்,0,Tamil_language,UTC%2B05:30,Chennai
+Xi'an,108.9422,34.2611,China,12328000,10mega,mildmagic,Lowland,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,31,西安市,Xi%27an,Temperate_climate,,"405 m (1,329 ft)",中文,0,Standard_Chinese,UTC%2B08:00,Xi‚Äôan
+Lahore,74.3436,31.5497,Pakistan,12306000,10mega,hotsunnydryland,Lowland,Urdu + English,Boomtown,TRUE,guaranteed,FALSE,32,لاہور,Lahore,Semi-arid_climate#Hot_semi-arid_climates,,196 m (643 ft),اُردُو,English,Urdu,UTC%2B05:00,Lahore
+Chongqing,106.5504,29.5637,China,12135000,10mega,biseasonal,Lowland,Mandarin,Hypercity,TRUE,guaranteed,FALSE,33,重庆市,Chongqing,Humid_subtropical_climate,,244 m (801 ft),中文,0,Standard_Chinese,UTC%2B08:00,Chongqing
+Los Angeles,-118.4068,34.1141,United States,11922389,10mega,sunnydryland,Lowland,English,Modern Classic,TRUE,guaranteed,FALSE,34,Los Angeles,Los_Angeles,Semi-arid_climate,,233 ft (71 m),English,0,English_language,UTC−08:00,Los Angeles
+Baoding,115.464,38.874,China,11544036,10mega,dynamicseasonal,Sealevel City,Mandarin,Industry City,TRUE,guaranteed,FALSE,35,保定市,Baoding,Humid_continental_climate,,25 m (83 ft),中文,0,Standard_Chinese,UTC%2B08:00,Baoding
+London,-0.1275,51.5072,United Kingdom,11262000,10mega,steadyrainworld,Sealevel City,English,Modern Classic,TRUE,guaranteed,FALSE,36,London,London,Oceanic_climate,,25 m (82 ft),English,0,English_language,UTC%2B00:00,London
+Paris,2.3522,48.8567,France,11060000,10mega,steadyrainworld,Sealevel City,French,Modern Classic,TRUE,guaranteed,FALSE,37,Paris,Paris,Oceanic_climate,,28 m (92 ft),français,0,French_language,UTC%2B01:00,Paris
+Linyi,118.3564,35.1038,China,11018365,10mega,biseasonal,Sealevel City,Mandarin,Industry City,TRUE,guaranteed,FALSE,38,临沂市,Linyi,Humid_subtropical_climate,,74 m (244 ft),中文,0,Standard_Chinese,UTC%2B08:00,Linyi
+Dongguan,113.752,23.021,China,10646000,10mega,biseasonal,Sealevel City,Mandarin,Industry City,TRUE,guaranteed,FALSE,39,东莞市,Dongguan,Humid_subtropical_climate,,8 m (26 ft),中文,0,Standard_Chinese,UTC%2B08:00,Dongguan
+Hyderabad,78.4747,17.3617,India,10494000,10mega,tropicalsunscape,Hill Haven,Telugu + Urdu,Boomtown,TRUE,guaranteed,FALSE,40,హైదరాబాద్,Hyderabad,Tropical_savanna_climate,,"524 m (1,719 ft)",తెలుగు,اُردُو,Telugu_language,UTC%2B05:30,HyderƒÅbƒÅd
+Tianjin,117.2054,39.1336,China,10368000,10mega,sunnydryland,Sealevel City,Mandarin,Hypercity,TRUE,guaranteed,FALSE,41,天津市,Tianjin,Semi-arid_climate,,5 m (16 ft),中文,0,Standard_Chinese,UTC%2B08:00,Tianjin
+Lima,-77.0375,-12.06,Peru,10320000,10mega,milddesert,Lowland,Spanish,Mixed Metro,TRUE,guaranteed,FALSE,42,Lima,Lima,Desert_climate#Mild_desert_climates,,150 m (500 ft),Español,0,Spanish_language,UTC−05:00,Lima
+Wuhan,114.3046,30.5934,China,10251000,10mega,biseasonal,Sealevel City,Mandarin,Hypercity,TRUE,guaranteed,FALSE,43,武汉市,Wuhan,Humid_subtropical_climate,,37 m (121 ft),中文,0,Standard_Chinese,UTC%2B08:00,Wuhan
+Nanyang,112.5292,32.9987,China,9713112,7large,biseasonal,Lowland,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,44,南阳市,"Nanyang,_Henan",Humid_subtropical_climate,,131 m (430 ft),中文,0,Standard_Chinese,UTC%2B08:00,Nanyang
+Hangzhou,120.153,30.267,China,9523000,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,45,杭州市,Hangzhou,Humid_subtropical_climate,,24 m(78 ft),中文,0,Standard_Chinese,UTC%2B08:00,Hangzhou
+Foshan,113.1216,23.0214,China,9498863,7large,biseasonal,Sealevel City,Mandarin,Hypercity,TRUE,guaranteed,FALSE,46,佛山市,Foshan,Humid_subtropical_climate,,16 m (52 ft),中文,0,Standard_Chinese,UTC%2B08:00,Foshan
+Nagoya,136.9,35.1833,Japan,9197000,7large,biseasonal,Sealevel City,Japanese,Hypercity,TRUE,guaranteed,FALSE,47,名古屋市,Nagoya,Humid_subtropical_climate,,12 meters (39 ft).,日本語,0,Japanese_language,UTC%2B09:00,Nagoya
+Xuzhou,117.284,34.204,China,9083790,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,48,徐州市,Xuzhou,Humid_subtropical_climate,,33 meters (108 ft) ,中文,0,Standard_Chinese,UTC%2B08:00,Tongshan
+Luanda,13.2344,-8.8383,Angola,9051000,7large,hotsunnydryland,Sealevel City,Portuguese,Boomtown,TRUE,guaranteed,FALSE,49,Luanda,Luanda,Semi-arid_climate#Hot_semi-arid_climates,,6 m (20 ft),Português,0,Portuguese_language,UTC%2B01:00,Luanda
+Zhoukou,114.6418,33.625,China,9026015,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,50,周口市,Zhoukou,Humid_subtropical_climate,,53 meters (173 ft) ,中文,0,Standard_Chinese,UTC%2B08:00,Zhoukou
+Ganzhou,114.933,25.831,China,8970014,7large,biseasonal,Lowland,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,51,赣州市,Ganzhou,Humid_subtropical_climate,,107 m (351 ft),中文,0,Standard_Chinese,UTC%2B08:00,Ganzhou
+Kuala Lumpur,101.6953,3.1478,Malaysia,8911000,7large,tropicalrainworld,Sealevel City,Malay,Mixed Metro,TRUE,guaranteed,FALSE,52,Kuala Lumpur,Kuala_lumpur,Tropical_rainforest_climate,,63 m (207 ft),Bahasa Melayu بهاس ملايو,English,Malay_language,,Kuala Lumpur
+Heze,115.4796,35.2343,China,8795939,7large,biseasonal,Lowland,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,53,菏泽市,Heze,Humid_subtropical_climate,,151 ft (46 m),中文,0,Standard_Chinese,UTC%2B08:00,Heze
+Quanzhou,118.6757,24.8744,China,8782285,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,54,泉州市,Quanzhou,Humid_subtropical_climate,,34 m (112 ft),中文,0,Standard_Chinese,UTC%2B08:00,Quanzhou
+Chicago,-87.6866,41.8375,United States,8497759,7large,hotdynamicseasonal,Hill Haven,English,Modern Classic,TRUE,guaranteed,FALSE,55,Chicago,Chicago,Humid_continental_climate#Hot_summer_subtype,,597.18 ft (182.02 m),English,0,English_language,,Chicago
+Nanjing,118.7789,32.0608,China,8422000,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,56,南京市,Nanjing,Humid_subtropical_climate,,20 m (50 ft),中文,0,Standard_Chinese,UTC%2B08:00,Nanjing
+Jining,116.5871,35.4151,China,8357897,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,57,济宁市,Jining,Humid_subtropical_climate,,43.69 m (143.34 ft),中文,0,Standard_Chinese,UTC%2B08:00,Jining
+Hanoi,105.85,21,Vietnam,8246600,7large,biseasonal,Hill Haven,Vietnamese,Mixed Metro,TRUE,guaranteed,FALSE,58,Hà Nội,hanoi,Humid_subtropical_climate,,"1,296 m (4,252 ft)",Tiếng Việt,0,Vietnamese_language,,Hanoi
+Pune,73.8567,18.5203,India,8231000,7large,tropicalsunscape,Hill Haven,Marathi,Mixed Metro,TRUE,guaranteed,FALSE,59,पुणे,Pune,Tropical_savanna_climate,,"570.62 m (1,872.11 ft)",मराठी,0,Marathi_language,UTC%2B05:30,Pune
+Fuyang,115.814,32.89,China,8200264,7large,dynamicseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,60,fuyang,Fuyang,Humid_subtropical_climate,,33 m (108 ft),中文,0,Standard_Chinese,UTC%2B08:00,Fuyang
+Ahmedabad,72.5714,23.0225,India,8009000,7large,hotsunnydryland,Sealevel City,Gujarati + English,Mixed Metro,TRUE,guaranteed,FALSE,61,ગુજરાતી,Ahmedabad,Semi-arid_climate#Hot_semi-arid_climates,,69.65 m (228.51 ft),ગુજરાતી,English,Gujarati_language,UTC%2B05:30,Ahmedabad
+Bogota,-74.0722,4.7111,Colombia,7968095,7large,steadyrainworld,Mountain Metro,Spanish,Mixed Metro,TRUE,guaranteed,FALSE,62,Bogotá,Bogota,Oceanic_climate,,"2,640 m (8,660 ft)",Español,0,Spanish_language,UTC−05:00,Bogot√°
+Shenyang,123.4281,41.8025,China,7964000,7large,dynamicseasonal,Sealevel City,Mandarin,Industry City,TRUE,guaranteed,FALSE,63,shenyang,Shenyang,Humid_continental_climate,,55 m (180 ft),中文,0,Standard_Chinese,UTC%2B08:00,Shenyang
+Dar es Salaam,39.2803,-6.8161,Tanzania,7962000,7large,tropicalsunscape,Sealevel City,Swahili,Boomtown,TRUE,guaranteed,FALSE,64,Dār as-Salām,Dar_es_Salaam,Tropical_savanna_climate,,57 m (187 ft),Kiswahili Lugha ya Kiswahili كِسوَحِيلِ,English,Swahili_language,,Dar es Salaam
+Khartoum,32.5,15.6,Sudan,7869000,7large,drydesert,Lowland,Arabic + English,Boomtown,TRUE,guaranteed,FALSE,65,khartoum,Khartoum,Desert_climate#Hot_desert_climates,,"381 m (1,250 ft)",عربي,0,Arabic_language,,Khartoum
+Shangqiu,115.656,34.415,China,7816831,7large,biseasonal,Sealevel City,Mandarin,Historic Heart,TRUE,guaranteed,FALSE,66,shanqiu,shangqiu,Humid_subtropical_climate,,50 m (160 ft),中文,0,Standard_Chinese,UTC%2B08:00,Shangqiu
+Hong Kong,114.2,22.3,Hong Kong,7450000,7large,biseasonal,Sealevel City,Cantonese,Hypercity,TRUE,guaranteed,FALSE,67,香港,Hong_Kong,Humid_subtropical_climate,,0 m (0 ft),廣州話,English,Cantonese,UTC%2B08:00,Hong Kong
+Cangzhou,116.8387,38.3047,China,7300783,7large,dynamicseasonal,Sealevel City,Mandarin,Industry City,TRUE,guaranteed,FALSE,68,沧州市,Cangzhou,Humid_continental_climate,,13 m (43 ft),中文,,Standard_Chinese,UTC%2B08:00,Cangzhou
+Riyadh,46.7167,24.6333,Saudi Arabia,7237000,7large,Dry Desert,Hill Haven,Arabic,Mixed Metro,TRUE,guaranteed,FALSE,69,الرياض,Riyadh,Desert_climate#Hot_desert_climates,,"612 m (2,008 ft)",عربي,,Arabic_language,,Riyadh
+Santiago,-70.6506,-33.4372,Chile,7171000,7large,Cold Sunny Dryland,Hill Haven,Spanish,Mixed Metro,TRUE,guaranteed,FALSE,70,Santiago,Santiago,Semi-arid_climate,,"570 m (1,870 ft)",Español,,Spanish_language,,Santiago
+Xingtai,114.5048,37.0717,China,7111106,7large,sunnydryland,Sealevel City,Mandarin,Industry City,TRUE,guaranteed,FALSE,71,邢台市,Xingtai,Semi-arid_climate,Monsoonal-influenced Semi-arid,77 m (253 ft),中文,,Standard_Chinese,UTC%2B08:00,Xingtai
+Zhumadian,114.022,33.014,China,7008427,7large,dynamicseasonal,Lowland,Mandarin,Industry City,TRUE,guaranteed,FALSE,72,驻马店市,Zhumadian,Humid_subtropical_climate,"Monsoonal, 4 seasonal Humid Subtropical",106 m (348 ft),中文,,Standard_Chinese,UTC%2B08:00,Zhumadian
+Chattogram,91.8325,22.335,Bangladesh,7000000,7large,Monsoonal Rainworld,Sealevel City,Bengali + English,Industry City,TRUE,guaranteed,FALSE,73,চাটগাঁও,Chittagong,Tropical_monsoon_climate,,29 m (95 ft),বাংলা,English,Bengali_language,UTC%2B06:00,Chattogram
+Surabaya,112.7378,-7.2458,Indonesia,6998000,5medium,Tropical Sunscape,Sealevel City,Indonesian,Industry City,TRUE,guaranteed,FALSE,74,Surabaya,Surabaya,Tropical_savanna_climate,,5 m (16 ft),Bahasa Indonesia,,Indonesian_language,UTC%2B07:00,Surabaya
+Zhanjiang,110.3575,21.2701,China,6981236,5medium,biseasonal,Sealevel City,Mandarin,Industry City,TRUE,draw,FALSE,75,湛江市,Zhanjiang,Humid_subtropical_climate,,21 m (69 ft),中文,,Standard_Chinese,UTC%2B08:00,Zhanjiang
+Bijie,105.292,27.284,China,6899636,5medium,highlandrainworld,Mountain Metro,Mandarin,Terrain Town,TRUE,guaranteed,FALSE,76,毕节市,Bijie,"Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",,"1,723 m (5,653 ft)",中文,,Standard_Chinese,UTC%2B08:00,Bijie
+Yancheng,120.1626,33.3482,China,6709629,5medium,biseasonal,Sealevel City,Mandarin,Modern Classic,TRUE,guaranteed,FALSE,77,盐城市,Yancheng,Humid_subtropical_climate,,4 m (13 ft),中文,,Standard_Chinese,UTC%2B08:00,Yancheng
+Hengyang,112.572,26.894,China,6645243,5medium,,,Mandarin,,FALSE,draw,FALSE,78,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Hengyang
+Zunyi,107.031,27.722,China,6606675,5medium,,,Mandarin,,FALSE,draw,FALSE,79,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Zunyi
+Shaoyang,111.4679,27.2395,China,6563520,5medium,,,Mandarin,,FALSE,draw,FALSE,80,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Shaoyang
+Surat,72.8311,21.1702,India,6538000,5medium,Tropical Sunscape,Sealevel City,,Industry City,TRUE,guaranteed,FALSE,81,સુરત,Surat,Tropical_savanna_climate,,34.68 m (113.78 ft),ગુજરાતી,,Gujarati_language,UTC%2B05:30,S≈´rat
+Shangrao,117.9431,28.4551,China,6435300,5medium,,,Mandarin,,FALSE,draw,FALSE,82,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Shangrao
+Xinyang,114.091,32.149,China,6234401,5medium,,,Mandarin,,FALSE,draw,FALSE,83,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Xinyang
+Madrid,-3.7033,40.4169,Spain,6211000,5medium,Cold Sunny Dryland,Hill Haven,Spanish,Modern Classic,TRUE,guaranteed,FALSE,84,Madrid,Madrid,Semi-arid_climate#Cold_semi-arid_climates,,"650 m (2,130 ft)",Español,,Spanish_language,,Madrid
+Johannesburg,28.0456,-26.2044,South Africa,6198000,5medium,Highland Rainworld,Mountain Metro,English,Boomtown,TRUE,guaranteed,FALSE,85,Johannesburg,Johannesburg,"Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",,"1,753 m (5,751 ft)",English,,English_language,,Johannesburg
+Baghdad,44.3661,33.3153,Iraq,6183000,5medium,Dry Desert,Sealevel City,Arabic,New Boomtown,TRUE,guaranteed,FALSE,86,بَغْدَاد,Baghdad,Desert_climate#Hot_desert_climates,,34 m (112 ft),عربي,,Arabic_language,UTC%2B03:00,Baghdad
+Maoming,110.9255,21.6627,China,6174050,5medium,,,Mandarin,,FALSE,draw,FALSE,87,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Maoming
+Jieyang,116.3727,23.551,China,6089400,5medium,,,Mandarin,,FALSE,draw,FALSE,88,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Jieyang
+Miami,-80.2101,25.784,United States,6080145,5medium,Monsoonal Rainworld,Sealevel City,English,Modern Classic,TRUE,guaranteed,FALSE,89,Miami,Miami,Tropical_monsoon_climate,,2.1 m (7 ft),English,,English_language,,Miami
+Singapore,103.8,1.3,Singapore,5983000,5medium,Tropical Rainworld,Sealevel City,English,Hypercity,TRUE,guaranteed,FALSE,90,,,Tropical_rainforest_climate,,15 m (50 ft),English,中文,English_language,,Singapore
+Houston,-95.3885,29.786,United States,5970127,5medium,biseasonal,Sealevel City,English,Industry City,TRUE,guaranteed,FALSE,91,Houston,Houston,Humid_subtropical_climate,,32 m (105),English,,English_language,,Houston
+Liaocheng,115.9852,36.4559,China,5952128,5medium,,,Mandarin,,FALSE,draw,FALSE,92,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Liaocheng
+Huanggang,114.8724,30.4537,China,5882719,5medium,,,Mandarin,,FALSE,draw,FALSE,93,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Huanggang
+Dalian,121.6,38.9,China,5871474,5medium,,,Mandarin,Modern Classic,TRUE,guaranteed,FALSE,94,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Dalian
+Dallas,-96.7667,32.7935,United States,5830932,5medium,biseasonal,Lowland,English,Modern Classic,TRUE,guaranteed,FALSE,95,Dallas,Dallas,Humid_subtropical_climate,,230 m (755 ft),English,,English_language,,Dallas
+Qingdao,120.3827,36.0669,China,5818255,5medium,,,Mandarin,,FALSE,draw,FALSE,96,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Qingdao
+Yulin,110.181,22.654,China,5796766,5medium,,,Mandarin,,FALSE,draw,FALSE,97,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Yulin
+Douala,9.7,4.05,Cameroon,5768400,5medium,Monsoonal Rainworld,Sealevel City,French,Boomtown,TRUE,guaranteed,FALSE,98,Douala,Douala,Tropical_monsoon_climate,,13 m (43 ft),,,,,Douala
+Qujing,103.796,25.491,China,5765775,5medium,,,Mandarin,,FALSE,draw,FALSE,99,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Qujing
+Nangandao,113.9268,35.3036,China,5708191,5medium,,,Mandarin,,FALSE,draw,FALSE,100,,,,,,中文,,Standard_Chinese,UTC%2B08:00,Nangandao
+Philadelphia,-75.1339,40.0077,United States,5683533,5medium,biseasonal,Sealevel City,English,Modern Classic,TRUE,draw,FALSE,101,Philadelphia,Philadelphia,Humid_subtropical_climate,"""northern periphery"" of the humid subtropical",12 m (39 ft),English,,English_language,,Philadelphia
+Pudong,121.5064,31.2347,China,5681512,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Pudong
+Toronto,-79.3733,43.7417,Canada,5647656,5medium,dynamicseasonal,Sealevel City,English,Modern Classic,TRUE,possible,FALSE,,Toronto,Toronto,Humid_continental_climate,hot summer humid continental,76.5 m (251 ft),English,,English_language,,Toronto
+Zhengzhou,113.684,34.764,China,5621593,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Zhengzhou
+Dezhou,116.359,37.436,China,5611194,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Dezhou
+Nanchong,106.1106,30.8372,China,5607565,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Nanchong
+Jinan,117.0207,36.6702,China,5606374,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Jinan
+Giza,31.2118,29.987,Egypt,5598402,5medium,Dry Desert,Sealevel City,Arabic,Historic Heart,TRUE,guaranteed,FALSE,,الجيزة,Giza,Desert_climate,Hot desert like arid climate,30 m (98 ft),عربي,,Arabic_language,,Giza
+Nairobi,36.8172,-1.2864,Kenya,5545000,5medium,Highland Rainworld,Hill Haven,English,Mixed Metro,TRUE,guaranteed,FALSE,,Nairobi,Nairobi,"Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",,"1,795 m (5,889 ft)",English,,,,Nairobi
+Guadalajara,-103.3475,20.6767,Mexico,5525000,5medium,biseasonal,Hill Haven,Spanish,Mixed Metro,TRUE,guaranteed,FALSE,,Guadalajara,Guadalajara,Humid_subtropical_climate,,"1,566 m (5,138 ft)",Español,,Spanish_language,,Guadalajara
+Ankara,32.85,39.93,Turkey,5503985,5medium,Cold Sunny Dryland,Hill Haven,Turkish,Modern Classic,TRUE,guaranteed,FALSE,,Ankara,Ankara,Semi-arid_climate#Cold_semi-arid_climates,,"938 m (3,077 ft)",Turkish,,Turkish_language,,Ankara
+Tai'an,117.087,36.202,China,5472217,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Tai‚Äôan
+Langfang,116.6835,39.5383,China,5464087,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Langfang
+Dazhou,107.4678,31.2093,China,5385422,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Dazhou
+Saint Petersburg,30.3086,59.9375,Russia,5384342,5medium,dynamicseasonal,Sealevel City,Russian,Historic Heart,TRUE,guaranteed,FALSE,,Санкт-Петербург,Saint_Petersburg,Humid_continental_climate,,3 m (9.8 ft),русский,0,Russian_language,,Saint Petersburg
+Monterrey,-100.3,25.6667,Mexico,5341171,5medium,sunnydryland,Hill Haven,Spanish,Industry City,TRUE,guaranteed,FALSE,,Monterrey,Monterrey,Semi-arid_climate,,"540 m (1,770 ft)",Español,,Spanish_language,,Monterrey
+Belo Horizonte,-43.9333,-19.9167,Brazil,5328000,5medium,Tropical Sunscape,Hill Haven,Portuguese,Modern Classic,TRUE,guaranteed,FALSE,,Belo Horizonte,Belo_Horizonte,Tropical_savanna_climate,Milder due to the climate,"852 m (2,795 ft)",,,Portuguese_language,,Belo Horizonte
+Suzhou,116.9683,33.6333,China,5324476,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Suzhou
+Yongzhou,111.613,26.42,China,5289824,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Yongzhou
+Changde,111.699,29.031,China,5279102,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Changde
+Xiangyang,112.122,32.01,China,5260951,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Xiangyang
+Rangoon,96.16,16.795,Burma,5209541,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Rangoon
+Atlanta,-84.422,33.7628,United States,5180179,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Atlanta
+Washington,-77.0163,38.9047,United States,5116378,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Washington
+Zhaotong,103.717,27.338,China,5092611,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Zhaotong
+Zhangzhou,117.647,24.513,China,5054328,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Zhangzhou
+Melbourne,144.9631,-37.8142,Australia,5031195,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Melbourne
+Yichun,114.417,27.816,China,5007702,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Yichun
+Bozhou,115.7742,33.8626,China,4996844,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Bozhou
+Suqian,118.2831,33.9331,China,4986192,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Suqian
+Abidjan,-4.0333,5.3167,C√¥te d‚ÄôIvoire,4980000,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Abidjan
+Ji'an,114.9668,27.0912,China,4956600,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Ji‚Äôan
+Guilin,110.296,25.275,China,4931137,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Guilin
+Pingdingshan,113.2999,33.735,China,4904701,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Pingdingshan
+Berlin,13.405,52.52,Germany,4890363,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Berlin
+Alexandria,29.8925,31.1975,Egypt,4870000,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Alexandria
+Mianyang,104.679,31.468,China,4868243,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Mianyang
+Sydney,151.21,-33.8678,Australia,4840600,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Sydney
+Huanglongsi,114.345,34.795,China,4824016,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Huanglongsi
+Barcelona,2.1769,41.3828,Spain,4800000,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Barcelona
+Yuncheng,111.007,35.0267,China,4774508,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Yuncheng
+Cape Town,18.4239,-33.9253,South Africa,4770313,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Cape Town
+Changsha,112.939,28.228,China,4766296,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Changsha
+Jeddah,39.1728,21.5433,Saudi Arabia,4697000,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Jeddah
+Weinan,109.471,34.5206,China,4688744,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Weinan
+Chenzhou,113.016,25.77,China,4667134,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Chenzhou
+Jiangmen,113.0815,22.5789,China,4630300,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Jiangmen
+Jiujiang,115.954,29.661,China,4600276,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Jiujiang
+Xinpu,119.2214,34.5966,China,4599360,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Xinpu
+Yibin,104.643,28.752,China,4588804,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Yibin

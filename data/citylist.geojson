@@ -1,0 +1,5105 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tokyo",
+        "country": "Japan",
+        "population_simple_maps": 37732000,
+        "size_tag": "20xlmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Japanese",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 1,
+        "name_native": "東京",
+        "wiki": "Tokyo",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "40 m (131 ft)",
+        "language1": "日本語",
+        "language2": 0,
+        "language1_wiki": "Japanese_language",
+        "timezone_wiki": "UTC%2B09:00",
+        "name_local": "Tokyo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          139.6922,
+          35.6897
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jakarta",
+        "country": "Indonesia",
+        "population_simple_maps": 33756000,
+        "size_tag": "20xlmega",
+        "climate_tag": "monsoonalrainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Indonesian",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 2,
+        "name_native": "Jakarta",
+        "wiki": "Jakarta",
+        "climate_wiki": "Tropical_monsoon_climate",
+        "climate_elaboration": "",
+        "elevation": "8 m (26 ft)",
+        "language1": "Bahasa Indonesia",
+        "language2": 0,
+        "language1_wiki": "Indonesian_language",
+        "timezone_wiki": "UTC%2B07:00",
+        "name_local": "Jakarta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.8275,
+          -6.175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Delhi",
+        "country": "India",
+        "population_simple_maps": 32226000,
+        "size_tag": "20xlmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Hindi + English",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 3,
+        "name_native": "नई दिल्ली",
+        "wiki": "New_Delhi",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "216 m (708.62 ft)",
+        "language1": "हिन्दी",
+        "language2": "English",
+        "language1_wiki": "Hindi",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "Delhi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.23,
+          28.61
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guangzhou",
+        "country": "China",
+        "population_simple_maps": 26940000,
+        "size_tag": "20xlmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Cantonese",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 4,
+        "name_native": "广州市",
+        "wiki": "Guangzhou",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "21 m (69 ft)",
+        "language1": "廣州話",
+        "language2": "中文",
+        "language1_wiki": "Cantonese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Guangzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.26,
+          23.13
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mumbai",
+        "country": "India",
+        "population_simple_maps": 24973000,
+        "size_tag": "20xlmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Marathi + Hindi",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 5,
+        "name_native": "मुंबई",
+        "wiki": "Mumbai",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "14 m (46 ft)",
+        "language1": "मराठी",
+        "language2": "हिन्दी",
+        "language1_wiki": "Marathi_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "Mumbai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8775,
+          19.0761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Manila",
+        "country": "Philippines",
+        "population_simple_maps": 24922000,
+        "size_tag": "20xlmega",
+        "climate_tag": "monsoonalrainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Tagalog",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 6,
+        "name_native": "Maynila",
+        "wiki": "Manila",
+        "climate_wiki": "Tropical_monsoon_climate",
+        "climate_elaboration": "",
+        "elevation": "9.0 m (29.5 ft)",
+        "language1": "Tagalog",
+        "language2": 0,
+        "language1_wiki": "Tagalog_language",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Manila"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.9772,
+          14.5958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shanghai",
+        "country": "China",
+        "population_simple_maps": 24073000,
+        "size_tag": "20xlmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 7,
+        "name_native": "上海市",
+        "wiki": "Shanghai",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "4 m (13 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Shanghai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4747,
+          31.2286
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sao Paulo",
+        "country": "Brazil",
+        "population_simple_maps": 23086000,
+        "size_tag": "20xlmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Portuguese",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 8,
+        "name_native": "São Paulo",
+        "wiki": "São_Paulo",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "760 m (2,500 ft)",
+        "language1": "Português",
+        "language2": 0,
+        "language1_wiki": "Portuguese_language",
+        "timezone_wiki": "UTC−03:00",
+        "name_local": "S√£o Paulo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -46.6333,
+          -23.55
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Seoul",
+        "country": "Korea, South",
+        "population_simple_maps": 23016000,
+        "size_tag": "20xlmega",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Korean",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 9,
+        "name_native": "서울",
+        "wiki": "Seoul",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "38 m (125 ft)",
+        "language1": "한국어",
+        "language2": 0,
+        "language1_wiki": "Korean_language",
+        "timezone_wiki": "UTC%2B09:00",
+        "name_local": "Seoul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.99,
+          37.56
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mexico City",
+        "country": "Mexico",
+        "population_simple_maps": 21804000,
+        "size_tag": "20xlmega",
+        "climate_tag": "highlandrainworld",
+        "elevation_tag": "Mountain Metro",
+        "language_tag": "Spanish",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 10,
+        "name_native": "Ciudad de México",
+        "wiki": "Mexico_City",
+        "climate_wiki": "Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",
+        "climate_elaboration": "",
+        "elevation": "2,240 m (7,350 ft)",
+        "language1": "Español",
+        "language2": 0,
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "UTC−06:00",
+        "name_local": "Mexico City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.1333,
+          19.4333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cairo",
+        "country": "Egypt",
+        "population_simple_maps": 20296000,
+        "size_tag": "20xlmega",
+        "climate_tag": "drydesert",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Arabic",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 11,
+        "name_native": "القاهرة",
+        "wiki": "Cairo",
+        "climate_wiki": "Desert_climate#Hot_desert_climates",
+        "climate_elaboration": "",
+        "elevation": "23 m (75 ft)",
+        "language1": "عربي",
+        "language2": 0,
+        "language1_wiki": "Arabic_language",
+        "timezone_wiki": "UTC%2B02:00",
+        "name_local": "Cairo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2358,
+          30.0444
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "New York",
+        "country": "United States",
+        "population_simple_maps": 18908608,
+        "size_tag": "15lmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 12,
+        "name_native": "New York",
+        "wiki": "New_York_City",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "0 ft (0 m)",
+        "language1": "English",
+        "language2": 0,
+        "language1_wiki": "English_language",
+        "timezone_wiki": "UTC−05:00",
+        "name_local": "New York"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.9249,
+          40.6943
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dhaka",
+        "country": "Bangladesh",
+        "population_simple_maps": 18627000,
+        "size_tag": "15lmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Bengali",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 13,
+        "name_native": "ঢাকা",
+        "wiki": "Dhaka",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "32 m (104.96 ft)",
+        "language1": "বাংলা",
+        "language2": 0,
+        "language1_wiki": "Bengali_language",
+        "timezone_wiki": "UTC%2B06:00",
+        "name_local": "Dhaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.3889,
+          23.7639
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Beijing",
+        "country": "China",
+        "population_simple_maps": 18522000,
+        "size_tag": "15lmega",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 14,
+        "name_native": "北京市",
+        "wiki": "Beijing",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "43.5 m (142.7 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Beijing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3975,
+          39.9067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kolkata",
+        "country": "India",
+        "population_simple_maps": 18502000,
+        "size_tag": "15lmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Bengali + English",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 15,
+        "name_native": "Kolkata",
+        "wiki": "Kolkata",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "9 m (30 ft)",
+        "language1": "বাংলা",
+        "language2": "English",
+        "language1_wiki": "Bengali_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "KolkƒÅta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.37,
+          22.5675
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bangkok",
+        "country": "Thailand",
+        "population_simple_maps": 18007000,
+        "size_tag": "15lmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Thai",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 16,
+        "name_native": "กรุงเทพมหานคร",
+        "wiki": "Bangkok",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "1.5 m (4.9 ft)",
+        "language1": "ภาษาไทย",
+        "language2": 0,
+        "language1_wiki": "Thai_language",
+        "timezone_wiki": "UTC%2B07:00",
+        "name_local": "Bangkok"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.4942,
+          13.7525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenzhen",
+        "country": "China",
+        "population_simple_maps": 17619000,
+        "size_tag": "15lmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 17,
+        "name_native": "深圳市",
+        "wiki": "Shenzhen",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "0–943.7 m (0–3,145.7 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Shenzhen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.0596,
+          22.5415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Moscow",
+        "country": "Russia",
+        "population_simple_maps": 17332000,
+        "size_tag": "15lmega",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Russian",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 18,
+        "name_native": "Москва",
+        "wiki": "Moscow",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "156 m (512 ft)",
+        "language1": "русский",
+        "language2": 0,
+        "language1_wiki": "Russian_language",
+        "timezone_wiki": "UTC%2B03:00",
+        "name_local": "Moscow"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          37.6172,
+          55.7558
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "population_simple_maps": 16710000,
+        "size_tag": "15lmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Spanish",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 19,
+        "name_native": "Buenos Aires",
+        "wiki": "Buenos_Aires",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "25 m (82 ft)",
+        "language1": "Español",
+        "language2": 0,
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "UTC−03:00",
+        "name_local": "Buenos Aires"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -58.3817,
+          -34.6033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lagos",
+        "country": "Nigeria",
+        "population_simple_maps": 16637000,
+        "size_tag": "15lmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 20,
+        "name_native": "Lagos",
+        "wiki": "Lagos",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "41 m (135 ft)",
+        "language1": "English",
+        "language2": 0,
+        "language1_wiki": "English_language",
+        "timezone_wiki": "UTC%2B01:00",
+        "name_local": "Lagos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          3.3841,
+          6.455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Istanbul",
+        "country": "Turkey",
+        "population_simple_maps": 16079000,
+        "size_tag": "15lmega",
+        "climate_tag": "mildmagic",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Turkish",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 21,
+        "name_native": "İstanbul",
+        "wiki": "Istanbul",
+        "climate_wiki": "Temperate_climate",
+        "climate_elaboration": "",
+        "elevation": "0 ft (0 m)",
+        "language1": "Türkçe",
+        "language2": 0,
+        "language1_wiki": "Turkish_language",
+        "timezone_wiki": "UTC%2B03:00",
+        "name_local": "Istanbul"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.955,
+          41.0136
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Karachi",
+        "country": "Pakistan",
+        "population_simple_maps": 15738000,
+        "size_tag": "15lmega",
+        "climate_tag": "sunnydryland",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Urdu",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 22,
+        "name_native": "کراچی",
+        "wiki": "Karachi",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "",
+        "elevation": "10 m (30 ft)",
+        "language1": "اُردُو",
+        "language2": "English",
+        "language1_wiki": "Urdu",
+        "timezone_wiki": "UTC%2B05:00",
+        "name_local": "Karachi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          67.01,
+          24.86
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bengaluru",
+        "country": "India",
+        "population_simple_maps": 15386000,
+        "size_tag": "15lmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Kannada",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 23,
+        "name_native": "ಬೆಂಗಳೂರು",
+        "wiki": "Bengaluru",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "920 m (3,020 ft)",
+        "language1": "ಕನ್ನಡ",
+        "language2": 0,
+        "language1_wiki": "Kannada",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "Bangalore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5917,
+          12.9789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "population_simple_maps": 15136000,
+        "size_tag": "15lmega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Vietnamese",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 24,
+        "name_native": "Thành phố Hồ Chí Minh",
+        "wiki": "Ho_Chi_Minh_City",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "19 m (63 ft)",
+        "language1": "Tiếng Việt",
+        "language2": 0,
+        "language1_wiki": "Vietnamese_language",
+        "timezone_wiki": "UTC%2B07:00",
+        "name_local": "Ho Chi Minh City"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.7019,
+          10.7756
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Osaka",
+        "country": "Japan",
+        "population_simple_maps": 15126000,
+        "size_tag": "15lmega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Japanese",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 25,
+        "name_native": "大阪市",
+        "wiki": "Osaka",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "−2.2 m (−7.2 ft)",
+        "language1": "日本語",
+        "language2": 0,
+        "language1_wiki": "Japanese_language",
+        "timezone_wiki": "UTC%2B09:00",
+        "name_local": "≈åsaka"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          135.5022,
+          34.6939
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chengdu",
+        "country": "China",
+        "population_simple_maps": 14645000,
+        "size_tag": "10mega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 26,
+        "name_native": "成都市",
+        "wiki": "Chengdu",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "500 m (1,600 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Chengdu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.0633,
+          30.66
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tehran",
+        "country": "Iran",
+        "population_simple_maps": 14148000,
+        "size_tag": "10mega",
+        "climate_tag": "sunnydryland",
+        "elevation_tag": "Mountain Metro",
+        "language_tag": "Persian",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 27,
+        "name_native": "تهران",
+        "wiki": "Tehran",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "",
+        "elevation": "1500 m (4,500 ft)",
+        "language1": "فارسی",
+        "language2": 0,
+        "language1_wiki": "Persian_language",
+        "timezone_wiki": "UTC%2B03:30",
+        "name_local": "Tehran"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          51.3889,
+          35.6892
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kinshasa",
+        "country": "Congo (Kinshasa)",
+        "population_simple_maps": 12836000,
+        "size_tag": "10mega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Lowland",
+        "language_tag": "French + Lingala",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 28,
+        "name_native": "Ville de Kinshasa",
+        "wiki": "Kinshasa",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "240 m (790 ft)",
+        "language1": "français",
+        "language2": 0,
+        "language1_wiki": "French_language",
+        "timezone_wiki": "UTC%2B01:00",
+        "name_local": "Kinshasa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.3119,
+          -4.3219
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rio de Janeiro",
+        "country": "Brazil",
+        "population_simple_maps": 12592000,
+        "size_tag": "10mega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Portuguese",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 29,
+        "name_native": "Rio de Janeiro",
+        "wiki": "Rio_de_Janeiro",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "2 m (7 ft)",
+        "language1": "Português",
+        "language2": 0,
+        "language1_wiki": "Portuguese_language",
+        "timezone_wiki": "UTC−03:00",
+        "name_local": "Rio de Janeiro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.2056,
+          -22.9111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chennai",
+        "country": "India",
+        "population_simple_maps": 12395000,
+        "size_tag": "10mega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Tamil + English",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 30,
+        "name_native": "சென்னை",
+        "wiki": "Chennai",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "7 m (23 ft)",
+        "language1": "தமிழ்",
+        "language2": 0,
+        "language1_wiki": "Tamil_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "Chennai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.275,
+          13.0825
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xi'an",
+        "country": "China",
+        "population_simple_maps": 12328000,
+        "size_tag": "10mega",
+        "climate_tag": "mildmagic",
+        "elevation_tag": "Lowland",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 31,
+        "name_native": "西安市",
+        "wiki": "Xi%27an",
+        "climate_wiki": "Temperate_climate",
+        "climate_elaboration": "",
+        "elevation": "405 m (1,329 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Xi‚Äôan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.9422,
+          34.2611
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lahore",
+        "country": "Pakistan",
+        "population_simple_maps": 12306000,
+        "size_tag": "10mega",
+        "climate_tag": "hotsunnydryland",
+        "elevation_tag": "Lowland",
+        "language_tag": "Urdu + English",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 32,
+        "name_native": "لاہور",
+        "wiki": "Lahore",
+        "climate_wiki": "Semi-arid_climate#Hot_semi-arid_climates",
+        "climate_elaboration": "",
+        "elevation": "196 m (643 ft)",
+        "language1": "اُردُو",
+        "language2": "English",
+        "language1_wiki": "Urdu",
+        "timezone_wiki": "UTC%2B05:00",
+        "name_local": "Lahore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.3436,
+          31.5497
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chongqing",
+        "country": "China",
+        "population_simple_maps": 12135000,
+        "size_tag": "10mega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 33,
+        "name_native": "重庆市",
+        "wiki": "Chongqing",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "244 m (801 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Chongqing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5504,
+          29.5637
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Los Angeles",
+        "country": "United States",
+        "population_simple_maps": 11922389,
+        "size_tag": "10mega",
+        "climate_tag": "sunnydryland",
+        "elevation_tag": "Lowland",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 34,
+        "name_native": "Los Angeles",
+        "wiki": "Los_Angeles",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "",
+        "elevation": "233 ft (71 m)",
+        "language1": "English",
+        "language2": 0,
+        "language1_wiki": "English_language",
+        "timezone_wiki": "UTC−08:00",
+        "name_local": "Los Angeles"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -118.4068,
+          34.1141
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baoding",
+        "country": "China",
+        "population_simple_maps": 11544036,
+        "size_tag": "10mega",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 35,
+        "name_native": "保定市",
+        "wiki": "Baoding",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "25 m (83 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Baoding"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.464,
+          38.874
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "London",
+        "country": "United Kingdom",
+        "population_simple_maps": 11262000,
+        "size_tag": "10mega",
+        "climate_tag": "steadyrainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 36,
+        "name_native": "London",
+        "wiki": "London",
+        "climate_wiki": "Oceanic_climate",
+        "climate_elaboration": "",
+        "elevation": "25 m (82 ft)",
+        "language1": "English",
+        "language2": 0,
+        "language1_wiki": "English_language",
+        "timezone_wiki": "UTC%2B00:00",
+        "name_local": "London"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.1275,
+          51.5072
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Paris",
+        "country": "France",
+        "population_simple_maps": 11060000,
+        "size_tag": "10mega",
+        "climate_tag": "steadyrainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "French",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 37,
+        "name_native": "Paris",
+        "wiki": "Paris",
+        "climate_wiki": "Oceanic_climate",
+        "climate_elaboration": "",
+        "elevation": "28 m (92 ft)",
+        "language1": "français",
+        "language2": 0,
+        "language1_wiki": "French_language",
+        "timezone_wiki": "UTC%2B01:00",
+        "name_local": "Paris"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.3522,
+          48.8567
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Linyi",
+        "country": "China",
+        "population_simple_maps": 11018365,
+        "size_tag": "10mega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 38,
+        "name_native": "临沂市",
+        "wiki": "Linyi",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "74 m (244 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Linyi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.3564,
+          35.1038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dongguan",
+        "country": "China",
+        "population_simple_maps": 10646000,
+        "size_tag": "10mega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 39,
+        "name_native": "东莞市",
+        "wiki": "Dongguan",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "8 m (26 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Dongguan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.752,
+          23.021
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hyderabad",
+        "country": "India",
+        "population_simple_maps": 10494000,
+        "size_tag": "10mega",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Telugu + Urdu",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 40,
+        "name_native": "హైదరాబాద్",
+        "wiki": "Hyderabad",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "524 m (1,719 ft)",
+        "language1": "తెలుగు",
+        "language2": "اُردُو",
+        "language1_wiki": "Telugu_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "HyderƒÅbƒÅd"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.4747,
+          17.3617
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tianjin",
+        "country": "China",
+        "population_simple_maps": 10368000,
+        "size_tag": "10mega",
+        "climate_tag": "sunnydryland",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 41,
+        "name_native": "天津市",
+        "wiki": "Tianjin",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "",
+        "elevation": "5 m (16 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Tianjin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.2054,
+          39.1336
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Lima",
+        "country": "Peru",
+        "population_simple_maps": 10320000,
+        "size_tag": "10mega",
+        "climate_tag": "milddesert",
+        "elevation_tag": "Lowland",
+        "language_tag": "Spanish",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 42,
+        "name_native": "Lima",
+        "wiki": "Lima",
+        "climate_wiki": "Desert_climate#Mild_desert_climates",
+        "climate_elaboration": "",
+        "elevation": "150 m (500 ft)",
+        "language1": "Español",
+        "language2": 0,
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "UTC−05:00",
+        "name_local": "Lima"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0375,
+          -12.06
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Wuhan",
+        "country": "China",
+        "population_simple_maps": 10251000,
+        "size_tag": "10mega",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 43,
+        "name_native": "武汉市",
+        "wiki": "Wuhan",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "37 m (121 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Wuhan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.3046,
+          30.5934
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nanyang",
+        "country": "China",
+        "population_simple_maps": 9713112,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 44,
+        "name_native": "南阳市",
+        "wiki": "Nanyang,_Henan",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "131 m (430 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Nanyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.5292,
+          32.9987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hangzhou",
+        "country": "China",
+        "population_simple_maps": 9523000,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 45,
+        "name_native": "杭州市",
+        "wiki": "Hangzhou",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "24 m(78 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Hangzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.153,
+          30.267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Foshan",
+        "country": "China",
+        "population_simple_maps": 9498863,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 46,
+        "name_native": "佛山市",
+        "wiki": "Foshan",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "16 m (52 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Foshan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.1216,
+          23.0214
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nagoya",
+        "country": "Japan",
+        "population_simple_maps": 9197000,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Japanese",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 47,
+        "name_native": "名古屋市",
+        "wiki": "Nagoya",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "12 meters (39 ft).",
+        "language1": "日本語",
+        "language2": 0,
+        "language1_wiki": "Japanese_language",
+        "timezone_wiki": "UTC%2B09:00",
+        "name_local": "Nagoya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.9,
+          35.1833
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xuzhou",
+        "country": "China",
+        "population_simple_maps": 9083790,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 48,
+        "name_native": "徐州市",
+        "wiki": "Xuzhou",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "33 meters (108 ft) ",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Tongshan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.284,
+          34.204
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Luanda",
+        "country": "Angola",
+        "population_simple_maps": 9051000,
+        "size_tag": "7large",
+        "climate_tag": "hotsunnydryland",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Portuguese",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 49,
+        "name_native": "Luanda",
+        "wiki": "Luanda",
+        "climate_wiki": "Semi-arid_climate#Hot_semi-arid_climates",
+        "climate_elaboration": "",
+        "elevation": "6 m (20 ft)",
+        "language1": "Português",
+        "language2": 0,
+        "language1_wiki": "Portuguese_language",
+        "timezone_wiki": "UTC%2B01:00",
+        "name_local": "Luanda"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2344,
+          -8.8383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhoukou",
+        "country": "China",
+        "population_simple_maps": 9026015,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 50,
+        "name_native": "周口市",
+        "wiki": "Zhoukou",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "53 meters (173 ft) ",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Zhoukou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.6418,
+          33.625
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ganzhou",
+        "country": "China",
+        "population_simple_maps": 8970014,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 51,
+        "name_native": "赣州市",
+        "wiki": "Ganzhou",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "107 m (351 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Ganzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.933,
+          25.831
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kuala Lumpur",
+        "country": "Malaysia",
+        "population_simple_maps": 8911000,
+        "size_tag": "7large",
+        "climate_tag": "tropicalrainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Malay",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 52,
+        "name_native": "Kuala Lumpur",
+        "wiki": "Kuala_lumpur",
+        "climate_wiki": "Tropical_rainforest_climate",
+        "climate_elaboration": "",
+        "elevation": "63 m (207 ft)",
+        "language1": "Bahasa Melayu بهاس ملايو",
+        "language2": "English",
+        "language1_wiki": "Malay_language",
+        "timezone_wiki": "",
+        "name_local": "Kuala Lumpur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6953,
+          3.1478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Heze",
+        "country": "China",
+        "population_simple_maps": 8795939,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 53,
+        "name_native": "菏泽市",
+        "wiki": "Heze",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "151 ft (46 m)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Heze"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.4796,
+          35.2343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Quanzhou",
+        "country": "China",
+        "population_simple_maps": 8782285,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 54,
+        "name_native": "泉州市",
+        "wiki": "Quanzhou",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "34 m (112 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Quanzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.6757,
+          24.8744
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chicago",
+        "country": "United States",
+        "population_simple_maps": 8497759,
+        "size_tag": "7large",
+        "climate_tag": "hotdynamicseasonal",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 55,
+        "name_native": "Chicago",
+        "wiki": "Chicago",
+        "climate_wiki": "Humid_continental_climate#Hot_summer_subtype",
+        "climate_elaboration": "",
+        "elevation": "597.18 ft (182.02 m)",
+        "language1": "English",
+        "language2": 0,
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Chicago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -87.6866,
+          41.8375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nanjing",
+        "country": "China",
+        "population_simple_maps": 8422000,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 56,
+        "name_native": "南京市",
+        "wiki": "Nanjing",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "20 m (50 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Nanjing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.7789,
+          32.0608
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jining",
+        "country": "China",
+        "population_simple_maps": 8357897,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 57,
+        "name_native": "济宁市",
+        "wiki": "Jining",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "43.69 m (143.34 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Jining"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.5871,
+          35.4151
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hanoi",
+        "country": "Vietnam",
+        "population_simple_maps": 8246600,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Vietnamese",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 58,
+        "name_native": "Hà Nội",
+        "wiki": "hanoi",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "1,296 m (4,252 ft)",
+        "language1": "Tiếng Việt",
+        "language2": 0,
+        "language1_wiki": "Vietnamese_language",
+        "timezone_wiki": "",
+        "name_local": "Hanoi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.85,
+          21
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pune",
+        "country": "India",
+        "population_simple_maps": 8231000,
+        "size_tag": "7large",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Marathi",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 59,
+        "name_native": "पुणे",
+        "wiki": "Pune",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "570.62 m (1,872.11 ft)",
+        "language1": "मराठी",
+        "language2": 0,
+        "language1_wiki": "Marathi_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "Pune"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.8567,
+          18.5203
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Fuyang",
+        "country": "China",
+        "population_simple_maps": 8200264,
+        "size_tag": "7large",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 60,
+        "name_native": "fuyang",
+        "wiki": "Fuyang",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "33 m (108 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Fuyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.814,
+          32.89
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ahmedabad",
+        "country": "India",
+        "population_simple_maps": 8009000,
+        "size_tag": "7large",
+        "climate_tag": "hotsunnydryland",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Gujarati + English",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 61,
+        "name_native": "ગુજરાતી",
+        "wiki": "Ahmedabad",
+        "climate_wiki": "Semi-arid_climate#Hot_semi-arid_climates",
+        "climate_elaboration": "",
+        "elevation": "69.65 m (228.51 ft)",
+        "language1": "ગુજરાતી",
+        "language2": "English",
+        "language1_wiki": "Gujarati_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "Ahmedabad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.5714,
+          23.0225
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bogota",
+        "country": "Colombia",
+        "population_simple_maps": 7968095,
+        "size_tag": "7large",
+        "climate_tag": "steadyrainworld",
+        "elevation_tag": "Mountain Metro",
+        "language_tag": "Spanish",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 62,
+        "name_native": "Bogotá",
+        "wiki": "Bogota",
+        "climate_wiki": "Oceanic_climate",
+        "climate_elaboration": "",
+        "elevation": "2,640 m (8,660 ft)",
+        "language1": "Español",
+        "language2": 0,
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "UTC−05:00",
+        "name_local": "Bogot√°"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.0722,
+          4.7111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shenyang",
+        "country": "China",
+        "population_simple_maps": 7964000,
+        "size_tag": "7large",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 63,
+        "name_native": "shenyang",
+        "wiki": "Shenyang",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "55 m (180 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Shenyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4281,
+          41.8025
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dar es Salaam",
+        "country": "Tanzania",
+        "population_simple_maps": 7962000,
+        "size_tag": "7large",
+        "climate_tag": "tropicalsunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Swahili",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 64,
+        "name_native": "Dār as-Salām",
+        "wiki": "Dar_es_Salaam",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "57 m (187 ft)",
+        "language1": "Kiswahili Lugha ya Kiswahili كِسوَحِيلِ",
+        "language2": "English",
+        "language1_wiki": "Swahili_language",
+        "timezone_wiki": "",
+        "name_local": "Dar es Salaam"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.2803,
+          -6.8161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Khartoum",
+        "country": "Sudan",
+        "population_simple_maps": 7869000,
+        "size_tag": "7large",
+        "climate_tag": "drydesert",
+        "elevation_tag": "Lowland",
+        "language_tag": "Arabic + English",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 65,
+        "name_native": "khartoum",
+        "wiki": "Khartoum",
+        "climate_wiki": "Desert_climate#Hot_desert_climates",
+        "climate_elaboration": "",
+        "elevation": "381 m (1,250 ft)",
+        "language1": "عربي",
+        "language2": 0,
+        "language1_wiki": "Arabic_language",
+        "timezone_wiki": "",
+        "name_local": "Khartoum"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.5,
+          15.6
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shangqiu",
+        "country": "China",
+        "population_simple_maps": 7816831,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 66,
+        "name_native": "shanqiu",
+        "wiki": "shangqiu",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "50 m (160 ft)",
+        "language1": "中文",
+        "language2": 0,
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Shangqiu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.656,
+          34.415
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hong Kong",
+        "country": "Hong Kong",
+        "population_simple_maps": 7450000,
+        "size_tag": "7large",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Cantonese",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 67,
+        "name_native": "香港",
+        "wiki": "Hong_Kong",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "0 m (0 ft)",
+        "language1": "廣州話",
+        "language2": "English",
+        "language1_wiki": "Cantonese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Hong Kong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2,
+          22.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cangzhou",
+        "country": "China",
+        "population_simple_maps": 7300783,
+        "size_tag": "7large",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 68,
+        "name_native": "沧州市",
+        "wiki": "Cangzhou",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "13 m (43 ft)",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Cangzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.8387,
+          38.3047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Riyadh",
+        "country": "Saudi Arabia",
+        "population_simple_maps": 7237000,
+        "size_tag": "7large",
+        "climate_tag": "Dry Desert",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Arabic",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 69,
+        "name_native": "الرياض",
+        "wiki": "Riyadh",
+        "climate_wiki": "Desert_climate#Hot_desert_climates",
+        "climate_elaboration": "",
+        "elevation": "612 m (2,008 ft)",
+        "language1": "عربي",
+        "language2": "",
+        "language1_wiki": "Arabic_language",
+        "timezone_wiki": "",
+        "name_local": "Riyadh"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          46.7167,
+          24.6333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Santiago",
+        "country": "Chile",
+        "population_simple_maps": 7171000,
+        "size_tag": "7large",
+        "climate_tag": "Cold Sunny Dryland",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Spanish",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 70,
+        "name_native": "Santiago",
+        "wiki": "Santiago",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "",
+        "elevation": "570 m (1,870 ft)",
+        "language1": "Español",
+        "language2": "",
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "",
+        "name_local": "Santiago"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -70.6506,
+          -33.4372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xingtai",
+        "country": "China",
+        "population_simple_maps": 7111106,
+        "size_tag": "7large",
+        "climate_tag": "sunnydryland",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 71,
+        "name_native": "邢台市",
+        "wiki": "Xingtai",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "Monsoonal-influenced Semi-arid",
+        "elevation": "77 m (253 ft)",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Xingtai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.5048,
+          37.0717
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhumadian",
+        "country": "China",
+        "population_simple_maps": 7008427,
+        "size_tag": "7large",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 72,
+        "name_native": "驻马店市",
+        "wiki": "Zhumadian",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "Monsoonal, 4 seasonal Humid Subtropical",
+        "elevation": "106 m (348 ft)",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Zhumadian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.022,
+          33.014
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chattogram",
+        "country": "Bangladesh",
+        "population_simple_maps": 7000000,
+        "size_tag": "7large",
+        "climate_tag": "Monsoonal Rainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Bengali + English",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 73,
+        "name_native": "চাটগাঁও",
+        "wiki": "Chittagong",
+        "climate_wiki": "Tropical_monsoon_climate",
+        "climate_elaboration": "",
+        "elevation": "29 m (95 ft)",
+        "language1": "বাংলা",
+        "language2": "English",
+        "language1_wiki": "Bengali_language",
+        "timezone_wiki": "UTC%2B06:00",
+        "name_local": "Chattogram"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.8325,
+          22.335
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surabaya",
+        "country": "Indonesia",
+        "population_simple_maps": 6998000,
+        "size_tag": "5medium",
+        "climate_tag": "Tropical Sunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Indonesian",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 74,
+        "name_native": "Surabaya",
+        "wiki": "Surabaya",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "5 m (16 ft)",
+        "language1": "Bahasa Indonesia",
+        "language2": "",
+        "language1_wiki": "Indonesian_language",
+        "timezone_wiki": "UTC%2B07:00",
+        "name_local": "Surabaya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.7378,
+          -7.2458
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhanjiang",
+        "country": "China",
+        "population_simple_maps": 6981236,
+        "size_tag": "5medium",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 75,
+        "name_native": "湛江市",
+        "wiki": "Zhanjiang",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "21 m (69 ft)",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Zhanjiang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.3575,
+          21.2701
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bijie",
+        "country": "China",
+        "population_simple_maps": 6899636,
+        "size_tag": "5medium",
+        "climate_tag": "highlandrainworld",
+        "elevation_tag": "Mountain Metro",
+        "language_tag": "Mandarin",
+        "build_tag": "Terrain Town",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 76,
+        "name_native": "毕节市",
+        "wiki": "Bijie",
+        "climate_wiki": "Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",
+        "climate_elaboration": "",
+        "elevation": "1,723 m (5,653 ft)",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Bijie"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.292,
+          27.284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yancheng",
+        "country": "China",
+        "population_simple_maps": 6709629,
+        "size_tag": "5medium",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Mandarin",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 77,
+        "name_native": "盐城市",
+        "wiki": "Yancheng",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "4 m (13 ft)",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Yancheng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.1626,
+          33.3482
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Hengyang",
+        "country": "China",
+        "population_simple_maps": 6645243,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 78,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Hengyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.572,
+          26.894
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zunyi",
+        "country": "China",
+        "population_simple_maps": 6606675,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 79,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Zunyi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.031,
+          27.722
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shaoyang",
+        "country": "China",
+        "population_simple_maps": 6563520,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 80,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Shaoyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.4679,
+          27.2395
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Surat",
+        "country": "India",
+        "population_simple_maps": 6538000,
+        "size_tag": "5medium",
+        "climate_tag": "Tropical Sunscape",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 81,
+        "name_native": "સુરત",
+        "wiki": "Surat",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "",
+        "elevation": "34.68 m (113.78 ft)",
+        "language1": "ગુજરાતી",
+        "language2": "",
+        "language1_wiki": "Gujarati_language",
+        "timezone_wiki": "UTC%2B05:30",
+        "name_local": "S≈´rat"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.8311,
+          21.1702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Shangrao",
+        "country": "China",
+        "population_simple_maps": 6435300,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 82,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Shangrao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.9431,
+          28.4551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xinyang",
+        "country": "China",
+        "population_simple_maps": 6234401,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 83,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Xinyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.091,
+          32.149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Madrid",
+        "country": "Spain",
+        "population_simple_maps": 6211000,
+        "size_tag": "5medium",
+        "climate_tag": "Cold Sunny Dryland",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Spanish",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 84,
+        "name_native": "Madrid",
+        "wiki": "Madrid",
+        "climate_wiki": "Semi-arid_climate#Cold_semi-arid_climates",
+        "climate_elaboration": "",
+        "elevation": "650 m (2,130 ft)",
+        "language1": "Español",
+        "language2": "",
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "",
+        "name_local": "Madrid"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.7033,
+          40.4169
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Johannesburg",
+        "country": "South Africa",
+        "population_simple_maps": 6198000,
+        "size_tag": "5medium",
+        "climate_tag": "Highland Rainworld",
+        "elevation_tag": "Mountain Metro",
+        "language_tag": "English",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 85,
+        "name_native": "Johannesburg",
+        "wiki": "Johannesburg",
+        "climate_wiki": "Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",
+        "climate_elaboration": "",
+        "elevation": "1,753 m (5,751 ft)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Johannesburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          28.0456,
+          -26.2044
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Baghdad",
+        "country": "Iraq",
+        "population_simple_maps": 6183000,
+        "size_tag": "5medium",
+        "climate_tag": "Dry Desert",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Arabic",
+        "build_tag": "New Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 86,
+        "name_native": "بَغْدَاد",
+        "wiki": "Baghdad",
+        "climate_wiki": "Desert_climate#Hot_desert_climates",
+        "climate_elaboration": "",
+        "elevation": "34 m (112 ft)",
+        "language1": "عربي",
+        "language2": "",
+        "language1_wiki": "Arabic_language",
+        "timezone_wiki": "UTC%2B03:00",
+        "name_local": "Baghdad"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          44.3661,
+          33.3153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Maoming",
+        "country": "China",
+        "population_simple_maps": 6174050,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 87,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Maoming"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.9255,
+          21.6627
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jieyang",
+        "country": "China",
+        "population_simple_maps": 6089400,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 88,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Jieyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.3727,
+          23.551
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Miami",
+        "country": "United States",
+        "population_simple_maps": 6080145,
+        "size_tag": "5medium",
+        "climate_tag": "Monsoonal Rainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 89,
+        "name_native": "Miami",
+        "wiki": "Miami",
+        "climate_wiki": "Tropical_monsoon_climate",
+        "climate_elaboration": "",
+        "elevation": "2.1 m (7 ft)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Miami"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.2101,
+          25.784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Singapore",
+        "country": "Singapore",
+        "population_simple_maps": 5983000,
+        "size_tag": "5medium",
+        "climate_tag": "Tropical Rainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Hypercity",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 90,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "Tropical_rainforest_climate",
+        "climate_elaboration": "",
+        "elevation": "15 m (50 ft)",
+        "language1": "English",
+        "language2": "中文",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Singapore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8,
+          1.3
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Houston",
+        "country": "United States",
+        "population_simple_maps": 5970127,
+        "size_tag": "5medium",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 91,
+        "name_native": "Houston",
+        "wiki": "Houston",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "32 m (105)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Houston"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -95.3885,
+          29.786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Liaocheng",
+        "country": "China",
+        "population_simple_maps": 5952128,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 92,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Liaocheng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.9852,
+          36.4559
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huanggang",
+        "country": "China",
+        "population_simple_maps": 5882719,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 93,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Huanggang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8724,
+          30.4537
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dalian",
+        "country": "China",
+        "population_simple_maps": 5871474,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 94,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Dalian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.6,
+          38.9
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dallas",
+        "country": "United States",
+        "population_simple_maps": 5830932,
+        "size_tag": "5medium",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Lowland",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 95,
+        "name_native": "Dallas",
+        "wiki": "Dallas",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "230 m (755 ft)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Dallas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.7667,
+          32.7935
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qingdao",
+        "country": "China",
+        "population_simple_maps": 5818255,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 96,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Qingdao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          120.3827,
+          36.0669
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yulin",
+        "country": "China",
+        "population_simple_maps": 5796766,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 97,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Yulin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.181,
+          22.654
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Douala",
+        "country": "Cameroon",
+        "population_simple_maps": 5768400,
+        "size_tag": "5medium",
+        "climate_tag": "Monsoonal Rainworld",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "French",
+        "build_tag": "Boomtown",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": 98,
+        "name_native": "Douala",
+        "wiki": "Douala",
+        "climate_wiki": "Tropical_monsoon_climate",
+        "climate_elaboration": "",
+        "elevation": "13 m (43 ft)",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Douala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          9.7,
+          4.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Qujing",
+        "country": "China",
+        "population_simple_maps": 5765775,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 99,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Qujing"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.796,
+          25.491
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nangandao",
+        "country": "China",
+        "population_simple_maps": 5708191,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "Mandarin",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 100,
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "中文",
+        "language2": "",
+        "language1_wiki": "Standard_Chinese",
+        "timezone_wiki": "UTC%2B08:00",
+        "name_local": "Nangandao"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.9268,
+          35.3036
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Philadelphia",
+        "country": "United States",
+        "population_simple_maps": 5683533,
+        "size_tag": "5medium",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": 101,
+        "name_native": "Philadelphia",
+        "wiki": "Philadelphia",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "\"northern periphery\" of the humid subtropical",
+        "elevation": "12 m (39 ft)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Philadelphia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.1339,
+          40.0077
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pudong",
+        "country": "China",
+        "population_simple_maps": 5681512,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Pudong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5064,
+          31.2347
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Toronto",
+        "country": "Canada",
+        "population_simple_maps": 5647656,
+        "size_tag": "5medium",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "English",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "possible",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Toronto",
+        "wiki": "Toronto",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "hot summer humid continental",
+        "elevation": "76.5 m (251 ft)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "English_language",
+        "timezone_wiki": "",
+        "name_local": "Toronto"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.3733,
+          43.7417
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhengzhou",
+        "country": "China",
+        "population_simple_maps": 5621593,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Zhengzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.684,
+          34.764
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dezhou",
+        "country": "China",
+        "population_simple_maps": 5611194,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Dezhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.359,
+          37.436
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nanchong",
+        "country": "China",
+        "population_simple_maps": 5607565,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Nanchong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1106,
+          30.8372
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jinan",
+        "country": "China",
+        "population_simple_maps": 5606374,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Jinan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0207,
+          36.6702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Giza",
+        "country": "Egypt",
+        "population_simple_maps": 5598402,
+        "size_tag": "5medium",
+        "climate_tag": "Dry Desert",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Arabic",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "الجيزة",
+        "wiki": "Giza",
+        "climate_wiki": "Desert_climate",
+        "climate_elaboration": "Hot desert like arid climate",
+        "elevation": "30 m (98 ft)",
+        "language1": "عربي",
+        "language2": "",
+        "language1_wiki": "Arabic_language",
+        "timezone_wiki": "",
+        "name_local": "Giza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          31.2118,
+          29.987
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nairobi",
+        "country": "Kenya",
+        "population_simple_maps": 5545000,
+        "size_tag": "5medium",
+        "climate_tag": "Highland Rainworld",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "English",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Nairobi",
+        "wiki": "Nairobi",
+        "climate_wiki": "Oceanic_climate#Subtropical_highland_variety_(Cfb,_Cwb)",
+        "climate_elaboration": "",
+        "elevation": "1,795 m (5,889 ft)",
+        "language1": "English",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Nairobi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          36.8172,
+          -1.2864
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guadalajara",
+        "country": "Mexico",
+        "population_simple_maps": 5525000,
+        "size_tag": "5medium",
+        "climate_tag": "biseasonal",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Spanish",
+        "build_tag": "Mixed Metro",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Guadalajara",
+        "wiki": "Guadalajara",
+        "climate_wiki": "Humid_subtropical_climate",
+        "climate_elaboration": "",
+        "elevation": "1,566 m (5,138 ft)",
+        "language1": "Español",
+        "language2": "",
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "",
+        "name_local": "Guadalajara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.3475,
+          20.6767
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ankara",
+        "country": "Turkey",
+        "population_simple_maps": 5503985,
+        "size_tag": "5medium",
+        "climate_tag": "Cold Sunny Dryland",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Turkish",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Ankara",
+        "wiki": "Ankara",
+        "climate_wiki": "Semi-arid_climate#Cold_semi-arid_climates",
+        "climate_elaboration": "",
+        "elevation": "938 m (3,077 ft)",
+        "language1": "Turkish",
+        "language2": "",
+        "language1_wiki": "Turkish_language",
+        "timezone_wiki": "",
+        "name_local": "Ankara"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          32.85,
+          39.93
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tai'an",
+        "country": "China",
+        "population_simple_maps": 5472217,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Tai‚Äôan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.087,
+          36.202
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Langfang",
+        "country": "China",
+        "population_simple_maps": 5464087,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Langfang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.6835,
+          39.5383
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Dazhou",
+        "country": "China",
+        "population_simple_maps": 5385422,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Dazhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4678,
+          31.2093
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Saint Petersburg",
+        "country": "Russia",
+        "population_simple_maps": 5384342,
+        "size_tag": "5medium",
+        "climate_tag": "dynamicseasonal",
+        "elevation_tag": "Sealevel City",
+        "language_tag": "Russian",
+        "build_tag": "Historic Heart",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Санкт-Петербург",
+        "wiki": "Saint_Petersburg",
+        "climate_wiki": "Humid_continental_climate",
+        "climate_elaboration": "",
+        "elevation": "3 m (9.8 ft)",
+        "language1": "русский",
+        "language2": 0,
+        "language1_wiki": "Russian_language",
+        "timezone_wiki": "",
+        "name_local": "Saint Petersburg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          30.3086,
+          59.9375
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Monterrey",
+        "country": "Mexico",
+        "population_simple_maps": 5341171,
+        "size_tag": "5medium",
+        "climate_tag": "sunnydryland",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Spanish",
+        "build_tag": "Industry City",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Monterrey",
+        "wiki": "Monterrey",
+        "climate_wiki": "Semi-arid_climate",
+        "climate_elaboration": "",
+        "elevation": "540 m (1,770 ft)",
+        "language1": "Español",
+        "language2": "",
+        "language1_wiki": "Spanish_language",
+        "timezone_wiki": "",
+        "name_local": "Monterrey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.3,
+          25.6667
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Belo Horizonte",
+        "country": "Brazil",
+        "population_simple_maps": 5328000,
+        "size_tag": "5medium",
+        "climate_tag": "Tropical Sunscape",
+        "elevation_tag": "Hill Haven",
+        "language_tag": "Portuguese",
+        "build_tag": "Modern Classic",
+        "active": "TRUE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "Belo Horizonte",
+        "wiki": "Belo_Horizonte",
+        "climate_wiki": "Tropical_savanna_climate",
+        "climate_elaboration": "Milder due to the climate",
+        "elevation": "852 m (2,795 ft)",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "Portuguese_language",
+        "timezone_wiki": "",
+        "name_local": "Belo Horizonte"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -43.9333,
+          -19.9167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suzhou",
+        "country": "China",
+        "population_simple_maps": 5324476,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Suzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.9683,
+          33.6333
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yongzhou",
+        "country": "China",
+        "population_simple_maps": 5289824,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Yongzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.613,
+          26.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Changde",
+        "country": "China",
+        "population_simple_maps": 5279102,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Changde"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.699,
+          29.031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xiangyang",
+        "country": "China",
+        "population_simple_maps": 5260951,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Xiangyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.122,
+          32.01
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Rangoon",
+        "country": "Burma",
+        "population_simple_maps": 5209541,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Rangoon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.16,
+          16.795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atlanta",
+        "country": "United States",
+        "population_simple_maps": 5180179,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Atlanta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -84.422,
+          33.7628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Washington",
+        "country": "United States",
+        "population_simple_maps": 5116378,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Washington"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.0163,
+          38.9047
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhaotong",
+        "country": "China",
+        "population_simple_maps": 5092611,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Zhaotong"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.717,
+          27.338
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Zhangzhou",
+        "country": "China",
+        "population_simple_maps": 5054328,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Zhangzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.647,
+          24.513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Melbourne",
+        "country": "Australia",
+        "population_simple_maps": 5031195,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Melbourne"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          144.9631,
+          -37.8142
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yichun",
+        "country": "China",
+        "population_simple_maps": 5007702,
+        "size_tag": "5medium",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Yichun"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.417,
+          27.816
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Bozhou",
+        "country": "China",
+        "population_simple_maps": 4996844,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Bozhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.7742,
+          33.8626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Suqian",
+        "country": "China",
+        "population_simple_maps": 4986192,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Suqian"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          118.2831,
+          33.9331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Abidjan",
+        "country": "C√¥te d‚ÄôIvoire",
+        "population_simple_maps": 4980000,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Abidjan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.0333,
+          5.3167
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Ji'an",
+        "country": "China",
+        "population_simple_maps": 4956600,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Ji‚Äôan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.9668,
+          27.0912
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Guilin",
+        "country": "China",
+        "population_simple_maps": 4931137,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Guilin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.296,
+          25.275
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Pingdingshan",
+        "country": "China",
+        "population_simple_maps": 4904701,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Pingdingshan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.2999,
+          33.735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Berlin",
+        "country": "Germany",
+        "population_simple_maps": 4890363,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Berlin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.405,
+          52.52
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Alexandria",
+        "country": "Egypt",
+        "population_simple_maps": 4870000,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Alexandria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          29.8925,
+          31.1975
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mianyang",
+        "country": "China",
+        "population_simple_maps": 4868243,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Mianyang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.679,
+          31.468
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sydney",
+        "country": "Australia",
+        "population_simple_maps": 4840600,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Sydney"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          151.21,
+          -33.8678
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Huanglongsi",
+        "country": "China",
+        "population_simple_maps": 4824016,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Huanglongsi"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.345,
+          34.795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Barcelona",
+        "country": "Spain",
+        "population_simple_maps": 4800000,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Barcelona"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          2.1769,
+          41.3828
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yuncheng",
+        "country": "China",
+        "population_simple_maps": 4774508,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Yuncheng"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.007,
+          35.0267
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Cape Town",
+        "country": "South Africa",
+        "population_simple_maps": 4770313,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Cape Town"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4239,
+          -33.9253
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Changsha",
+        "country": "China",
+        "population_simple_maps": 4766296,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Changsha"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.939,
+          28.228
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jeddah",
+        "country": "Saudi Arabia",
+        "population_simple_maps": 4697000,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "guaranteed",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Jeddah"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          39.1728,
+          21.5433
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Weinan",
+        "country": "China",
+        "population_simple_maps": 4688744,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Weinan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.471,
+          34.5206
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chenzhou",
+        "country": "China",
+        "population_simple_maps": 4667134,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Chenzhou"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.016,
+          25.77
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jiangmen",
+        "country": "China",
+        "population_simple_maps": 4630300,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Jiangmen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.0815,
+          22.5789
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Jiujiang",
+        "country": "China",
+        "population_simple_maps": 4600276,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Jiujiang"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.954,
+          29.661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Xinpu",
+        "country": "China",
+        "population_simple_maps": 4599360,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Xinpu"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.2214,
+          34.5966
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yibin",
+        "country": "China",
+        "population_simple_maps": 4588804,
+        "size_tag": "4Small",
+        "climate_tag": "",
+        "elevation_tag": "",
+        "language_tag": "",
+        "build_tag": "",
+        "active": "FALSE",
+        "draw": "draw",
+        "guessed": "FALSE",
+        "rank": "",
+        "name_native": "",
+        "wiki": "",
+        "climate_wiki": "",
+        "climate_elaboration": "",
+        "elevation": "",
+        "language1": "",
+        "language2": "",
+        "language1_wiki": "",
+        "timezone_wiki": "",
+        "name_local": "Yibin"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.643,
+          28.752
+        ]
+      }
+    }
+  ]
+}

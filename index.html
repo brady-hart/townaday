@@ -1,0 +1,1454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Town-A-Day | Daily Geo Game</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <style>
+    html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }   
+    #map {
+      height: 100vh;
+    }
+  </style>
+</head>
+
+
+<body>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.4.0/axios.min.js"></script>
+    
+    <div id="map" ></div>
+    
+    <div id="main">
+        <img id="game-logo" class="game-logo-small" src="./assets/logo_dark.png"/>
+        <button id="about-creator-btn">Copyright © 2026 Brady Hart LLC. All rights reserved.</button>
+
+        <div id="screen-darkener" class="screen-darkener"></div>
+
+        <div id="start-screen">
+            <!--Town a day.com, Town For Today, Settlementary, Settlementia, Settlementalist, -->
+            <img id="game-logo" class="game-logo" src="./assets/logo.png"/>
+            <span id="instructions-1" class="instructions">Guess the town of the day in 7 tries or less.</span>
+            <span id="instructions-2" class="instructions">Even a wrong guess can teach you something.</span>
+            <button id="close-btn-1" class="close-btn">X</button>
+        </div>
+        
+        <div id="target-toolbar">
+            <div id="guessmarker-bar">
+                <img id="guessmarker-1" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+                <img id="guessmarker-2" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+                <img id="guessmarker-3" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+                <img id="guessmarker-4" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+                <img id="guessmarker-5" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+                <img id="guessmarker-6" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+                <img id="guessmarker-7" class="guessmarker" src="assets/ui_guessmarker_blank.png" alt="blank guessmarker">
+            </div>
+            <div id="target-traits-grid" class="target-traits-grid">
+                <button id="climate-filter-btn" class="filter-btn climate-filter-btn" data-filter="climate" style="transform: translate(0, 10px);"></button>
+                <img id="target-climate-card" class="trait-card" src="assets/cards/card_climate_blank.png" alt="climate blank card">
+                <img id="target-height-card" class="trait-card" src="assets/cards/card_height_blank.png" alt="elevation blank card">
+                <button id="height-filter-btn" class="filter-btn" style="transform: translate(0, 10px);"></button>
+                <button id="language-filter-btn" class="filter-btn"></button>
+                <img id="target-language-card" class="trait-card" src="assets/cards/card_language_blank.png" alt="language blank card">
+                <img id="target-build-card" class="trait-card" src="assets/cards/card_build_blank.png" alt="build blank card">
+                <button id="build-filter-btn" class="filter-btn"></button>
+                
+                <img id="target-pin" class="pin-icon" src="assets/pins/pin_blank.png" alt="Blank pin">
+            </div>
+            <button id="size-filter-btn" class="filter-btn" style="transform: translate(0, -8px);"></button>
+        </div>
+
+        <div id="selected-toolbar">
+            <img id="city-photo" class="city-photo" src="">
+            <span id="city-name" class="city-name">City Name</span>
+            <button id="wiki-link">Learn more...</button>
+            <div id="selected-traits-grid">
+                <img id="selected-climate-card" class="trait-card" src="assets/cards/card_climate_blank.png">
+                <img id="selected-height-card" class="trait-card" src="assets/cards/card_height_blank.png">
+                <img id="selected-language-card" class="trait-card" src="assets/cards/card_language_blank.png">
+                <img id="selected-build-card" class="trait-card" src="assets/cards/card_build_blank.png">
+                <img id="selected-pin" class="pin-icon" src="assets/pins/pin_blank.png">
+            </div>
+            <div id="buttons-container">
+                <button id="guess-btn" class="guess-btn">GUESS</button>
+                <button id="close-btn-2" class="close-btn">X</button>
+            </div>
+        </div>
+
+        <div id="end-screen-darkener" class="screen-darkener"></div>
+
+        <div id="failure-screen">
+            <span id="failure-title" class="card-title">Tough luck...</span>
+            <span id="failure-message" class="instructions"></span>
+            <img id="target-photo" class="city-photo" src="">
+            <span id="failure-cta" class="instructions">Try again?</span>
+            <button id="play-again-btn" class="guess-btn">PLAY AGAIN</button>
+        </div>
+
+        <div id="victory-screen">
+            <span id="victory-title" class="card-title">Well done!</span>
+            <span id="victory-message" class="instructions"></span>
+            <img id="found-target-photo" class="city-photo" src="">
+            <span id="victory-cta" class="instructions">Get your shareable graphic below!</span>
+            <button id="graphic-btn" class="close-btn">NEXT</button>
+        </div>
+
+        <div id="share-screen">
+            <img id="share-screen-game-logo" class="game-logo-small" src="./assets/logo.png"/>
+            <div id="share-guesses-container"></div>
+            <span id="game-url" class="instructions-small">TownADay.com</span>
+        </div>
+
+        
+    </div>
+
+
+<!--CONTROLS-->
+    <style>
+        .screen-darkener {
+            display: flex;
+            position: fixed;
+            inset: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.479);
+            z-index: 0;
+        }
+        #start-screen {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            top: 30%;
+            transform: translate(0%, -30%);
+            width: 330px;
+            border-radius: 30px;
+            padding: 50px;
+            background: linear-gradient(to right, #212128, #212128);
+            box-shadow: 6px 8px 20px #0000007d;
+            gap: 45px;
+        }
+        #failure-screen, #victory-screen {
+            position: fixed;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            top: 30%;
+            transform: translate(0%, -30%);
+            width: 400px;
+            height: auto;
+            border-radius: 30px;
+            padding: 20px;
+            background: linear-gradient(to right, #212128, #212128);
+            box-shadow: 6px 8px 20px #0000007d;
+            gap: 20px;
+        }
+        #failure-screen {
+            background: #949494;
+        }
+        #share-screen {
+            position: fixed;
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            top: 30%;
+            transform: translate(0%, -30%);
+            width: auto;
+            height: auto;
+            border-radius: 30px;
+            padding: 20px;
+            background: linear-gradient(to right, #212128, #212128);
+            box-shadow: 6px 8px 20px #0000007d;
+            gap: 0px;
+        }
+        @keyframes victory-breathe {
+            0%   { transform: scale(1); }
+            50%  { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+        .game-logo-small {
+            width: 200px;
+            height: auto;
+            margin-top: 15px;
+        }
+        #share-guesses-container {
+            transform: scale(.9);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0px;
+            width: 330px;
+            padding: 0px;
+            border-radius: none;
+            margin: 0;
+        }
+        .victory-idle {
+            animation: victory-breathe 2.5s ease-in-out infinite;
+        }
+
+        .game-logo {
+            width: 250px;
+            height: auto;
+        }
+        .card-title {
+            display: flex;
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 36px;
+            font-weight: 700;
+            color: #f4e9e9;
+        }
+        .instructions {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+            font-weight: 200;
+            color: #f4e9e9;
+            padding: 0px 0px 0px 0px;
+        }
+        .instructions-small {
+            text-align: center;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 18px;
+            font-weight: 200;
+            color: #b2adad;
+            padding: 0px 0px 0px 0px;
+            margin-bottom: 15px;
+        }
+        #target-toolbar {
+            position: fixed;
+            display: flex;
+            bottom: 15px;
+            flex-direction: column;
+            align-items: center;
+            /* background: linear-gradient(to right, #3a404f, #b3bcb4); /* Set your gradient colors */
+            background: linear-gradient(to right, #e4e1e1, #e4e1e1); /* Set your gradient colors */
+            border-radius: 25px;
+            padding: 5px;
+            box-shadow: 6px 8px 20px #0000007d;
+            z-index: 10;
+        }
+        #selected-toolbar {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            transform: translate(0%, 35%);
+            border-radius: 30px;
+            padding: 5px;
+            background: linear-gradient(to right, #212128, #212128);
+            box-shadow: 6px 8px 20px #0000007d;
+            z-index: 10;
+        }
+        #guessmarker-bar {
+            display: flex;
+            gap: 0px;
+        }
+        .guessmarker {
+            width: 40px;
+            height: auto;
+        }
+        .target-traits-grid {
+            position: relative;        /* for the pin overlay */
+            display: grid;
+            grid-template-columns: repeat(4, auto);
+            grid-template-rows: repeat(4, auto);
+            gap: 3px;
+            justify-items: center;
+        }
+        #selected-traits-grid {
+            position: relative;        /* for the pin overlay */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, auto);
+            gap: 3px;
+            justify-items: center;
+        }
+        .share-traits-grid {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            gap: 3px;
+            transform: scale(1);
+            justify-items: center;
+            transform-origin: top center;
+            opacity: 1;
+            margin-bottom: -10px;
+        }
+        @keyframes guess-pop {
+            from {
+                opacity: 0;
+                transform: scale(0.85);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        .city-name {
+            position: absolute;
+            top: 5px;
+            font-family: Georgia, times, serif;
+            font-size: 21px;
+            font-weight: 700;
+            background-color: #212128;
+            border-radius: 30px;
+            color: #f4e9e9;
+            padding: 5px 8px 5px 8px;
+        }
+        #wiki-link {
+            position: absolute;
+            display: none;
+            top: 35px;
+            font-family: Georgia, times, serif;
+            font-size: 14px;
+            font-weight: 400;
+            border: none;
+            outline: none;
+            background: none;
+            background-color: none;
+            color: #f4e9e9;
+            text-shadow: 0px 0px 5px black;
+            padding: 5px;
+        }
+        #wiki-link:hover {
+            position: absolute;
+            display: block;
+            top: 35px;
+            font-family: Georgia, times, serif;
+            font-size: 14px;
+            font-weight: 400;
+            background-color: none;
+            color: #0059ff;
+            text-shadow: none;
+            padding: 5px;
+        }
+        .city-photo {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+            border-radius: 25px;
+        }
+        .card-wrapper {
+            display: flex;
+            flex-direction: row;
+            gap: 0px;
+        }
+        .trait-card {
+            width: 100%;
+            max-width: 200px;
+            height: auto;
+        }
+        .pin-icon {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100;        /* higher than everything else */
+            pointer-events: none; /* optional: clicks pass through */
+            height: 100px;
+        }
+        .feature-name-label {
+            font-size: 18px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: 400;
+            background: none;
+            border: none;
+            padding: 0;
+            text-align: center;
+            pointer-events: none;
+            color: #3a404f;
+            box-shadow: none;
+            text-shadow: 0px 0px 5px white;
+        }
+        #map {
+            position: relative;
+            width:  100%;
+            height: 100vh; /* full screen height */
+            z-index: 0;
+        }
+        </style>
+
+<!--MAIN TOOLBAR-->
+    <style>
+        /* Main container */
+        #main {
+            position: fixed;
+            display: flex;
+            flex-direction: column;
+            top: 20px;
+            width: 100%;
+            justify-content: center; /* Center the toolbar in its container */
+            align-items: center;
+            gap: 10px;
+            padding: 4px;
+            z-index: 1000px;
+        }
+        #about-creator-btn {
+            position: fixed;
+            display: block;
+            left: 10px;
+            bottom: 10px;
+            cursor: pointer;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 12px;
+            color: #49aae2;
+            background: none;
+            border: none;
+        }
+        #about-creator-btn:hover {
+            color: #fb772f;
+        }
+    </style>
+
+
+    <!--REPURPOSED STUFF-->
+    <style>
+        #buttons-container {
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+        }
+        .guess-btn {
+            cursor: pointer;
+            min-width: 160px;
+            max-width: 260px;
+            background: #3f62b2;
+            border: none;
+            border-radius: 40px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            padding: 5px 5px 5px 5px;
+            color: #e8cc9a;
+        }
+        .guess-btn:hover {
+            cursor: pointer;
+            min-width: 160px;
+            max-width: 260px;
+            background: #e8cc9a;
+            border-radius: 40px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #3f62b2;
+        }
+        .guess-btn:disabled {
+            pointer-events: none;
+            cursor: pointer;
+            min-width: 170px;
+            max-width: 260px;
+            background: #878787;
+            border-radius: 40px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #767676;
+        }
+        .close-btn {
+            cursor: pointer;
+            min-width: 40px;
+            border: transparent;
+            background: #7178819e;
+            border-radius: 22px;
+            padding: 5px 10px 5px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-size: 18px;
+            font-weight: 700;
+            color: #b2bcebc3;
+            line-height: 26px;
+            /* drop shadow */
+            box-shadow: 0 11px 15px -7px rgb(0 0 0 / 30%), 0 24px 38px 3px rgb(0 0 0 / 14%), 0 9px 46px 8px rgb(0 0 0 / 12%);
+            z-index: 10;
+        }
+        .close-btn:hover {
+            color: #ffffffe8;
+            background: #d5dfec9e;
+        }
+        #close-btn-1 {
+            padding: 20px;
+            border-radius: 50px;
+            font-size: 24px;
+            padding: 20px 25px 20px;
+        }
+        .filter-btn {
+            width: 45px;
+            height: 45px;
+
+            background-image: url('./assets/ui_filter.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-color: transparent;
+
+            border: none;
+            padding: 0;
+            cursor: pointer;
+        }
+        .filter-btn:hover {
+            background-image: url('./assets/ui_filter_active.png');
+            background-color: transparent;
+        }
+        .filter-btn:disabled {
+            background-image: url('./assets/ui_filter_disabled.png');
+            background-color: transparent;
+            cursor: default;
+        }
+        .filter-btn.is-active {
+            background-image: url('./assets/ui_filter_active.png');
+            background-color: transparent;
+        }
+        #end-screen-darkener {
+            display: none;
+        }
+        /* Inherits from .close-btn */
+        #graphic-btn {
+            color: #e8cc9a;
+            background-color: #699141;
+        }
+        #graphic-btn:hover {
+            color: #3f62b2;
+            background-color: #e8cc9a;
+        }
+    </style>
+
+  <script>
+    // Initialize the map
+    //setView([32.8872, 13.1914], 3); // Centered on world (Tripoli)
+    const map = L.map('map').setView([32.8872, 13.1914], 3); // Centered on Tripoli
+
+    // Add OpenStreetMap tiles
+    // Other map styles: 
+    // default: https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png
+    // light: https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png
+    // dark: https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png
+    // light no labels: https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png
+    // dark no labels: https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png
+    // topo: https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png
+    // esri physical: https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}
+    
+    // NEEDS API KEY:
+    // Stamen terrain: https://tiles.stadiamaps.com/tiles/stamen_terrain_background/{z}/{x}/{y}{r}.{ext}
+    // Stamen watercolor: https://tiles.stadiamaps.com/tiles/stamen_watercolor/{z}/{x}/{y}.{ext}
+
+    var Esri_WorldImagery = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+	    attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community'
+    });
+
+    var Esri_WorldTerrain = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer/tile/{z}/{y}/{x}', {
+	    attribution: 'Tiles &copy; Esri &mdash; Source: USGS, Esri, TANA, DeLorme, and NPS',
+	    maxZoom: 13
+    });
+
+    var Esri_WorldShadedRelief = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer/tile/{z}/{y}/{x}', {
+	    attribution: 'Tiles &copy; Esri &mdash; Source: Esri',
+	    maxZoom: 13
+    });
+
+    var Esri_WorldPhysical = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer/tile/{z}/{y}/{x}', {
+	    attribution: 'Tiles &copy; Esri &mdash; Source: US National Park Service',
+	    maxZoom: 8
+    });
+
+    var Esri_OceanBasemap = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Ocean/World_Ocean_Base/MapServer/tile/{z}/{y}/{x}', {
+	    attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri',
+	    maxZoom: 13
+    });
+
+    var NASAGIBS_ViirsEarthAtNight2012 = L.tileLayer('https://map1.vis.earthdata.nasa.gov/wmts-webmerc/VIIRS_CityLights_2012/default/{time}/{tilematrixset}{maxZoom}/{z}/{y}/{x}.{format}', {
+	    attribution: 'Imagery provided by services from the Global Imagery Browse Services (GIBS), operated by the NASA/GSFC/Earth Science Data and Information System (<a href="https://earthdata.nasa.gov">ESDIS</a>) with funding provided by NASA/HQ.',
+	    bounds: [[-85.0511287776, -179.999999975], [85.0511287776, 179.999999975]],
+	    minZoom: 1,
+	    maxZoom: 8,
+	    format: 'jpg',
+	    time: '',
+	    tilematrixset: 'GoogleMapsCompatible_Level'
+    });
+
+    var OSM_LightNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap contributors'
+    })
+
+    var OSM_DarkNoLabels = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_nolabels/{z}/{x}/{y}{r}.png', {
+        attribution: '© OpenStreetMap contributors'
+    })
+    
+    OSM_LightNoLabels.addTo(map);
+
+    // SIZE NORMAL (20)                           SIZE SMALL (15)                                 SIZE X-SMALL (10)                               SIZE XX-SMALL (7)                             SIZE XXX-SMALL (5)
+    // (icon height - 4)                          (small icon height - 4)                         (small icon height - 4)                         (small icon height - 4)                       (small icon height - 4)
+    const iconSizeX = 100;                        const smallIconSizeX = 100;                     const xSmallIconSizeX = 100;                     const xxSmallIconSizeX = 100;                  const xxxSmallIconSizeX = 100;
+    const iconSizeY = 180;                        const smallIconSizeY = 164;                     const xSmallIconSizeY = 140;                     const xxSmallIconSizeY = 127;                  const xxxSmallIconSizeY = 114;
+    
+    const anchorX = 54;                                                                           const xSmallAnchorX = 36;                       const xxSmallAnchorX = 36;
+    
+    const divisionFactor = 1.5;
+
+    // ICONS (anchor y coordinate has been lowered by 4px)
+    // UTILITY and BASE
+    const blankIcon = L.icon({
+        iconUrl: `./assets/pins/pin_blank.png`,
+        iconSize: [iconSizeX/divisionFactor, iconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, iconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon5 = L.icon({
+        iconUrl: `./assets/pins/pin_5.png`,
+        iconSize: [xxxSmallIconSizeX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon5Hover = L.icon({
+        iconUrl: `./assets/pins/pin_5_hover.png`,
+        iconSize: [xxxSmallIconSizeX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon7 = L.icon({
+        iconUrl: `./assets/pins/pin_7.png`,
+        iconSize: [xxSmallIconSizeX/divisionFactor, xxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon7Hover = L.icon({
+        iconUrl: `./assets/pins/pin_7_hover.png`,
+        iconSize: [xxSmallIconSizeX/divisionFactor, xxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon10 = L.icon({
+        iconUrl: `./assets/pins/pin_10.png`,
+        iconSize: [xSmallIconSizeX/divisionFactor, xSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon10Hover = L.icon({
+        iconUrl: `./assets/pins/pin_10_hover.png`,
+        iconSize: [xSmallIconSizeX/divisionFactor, xSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon15 = L.icon({
+        iconUrl: `./assets/pins/pin_15.png`,
+        iconSize: [smallIconSizeX/divisionFactor, smallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, smallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon15Hover = L.icon({
+        iconUrl: `./assets/pins/pin_15_hover.png`,
+        iconSize: [smallIconSizeX/divisionFactor, smallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, smallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon20 = L.icon({
+        iconUrl: `./assets/pins/pin_20.png`,
+        iconSize: [iconSizeX/divisionFactor, iconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, iconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon20Hover = L.icon({
+        iconUrl: `./assets/pins/pin_20_hover.png`,
+        iconSize: [iconSizeX/divisionFactor, iconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, iconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const iconGuessed = L.icon({
+        iconUrl: `./assets/pins/pin_guessed.png`,
+        iconSize: [xxxSmallIconSizeX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    
+    
+    const pinIcons = {
+        pinBlank: `./assets/pins/pin_blank.png`,
+        pin5: `./assets/pins/pin_5.png`,
+        pin7: `./assets/pins/pin_7.png`,
+        pin10: `./assets/pins/pin_10.png`,
+        pin15: `./assets/pins/pin_15.png`,
+        pin20: `./assets/pins/pin_20.png`,
+        pinGuessed: `./assets/pins/pin_guessed.png`,
+    }
+
+    const climateCards = {
+        coldsunnydryland: `./assets/cards/card_climate_coldsunnydryland.png`,
+        drydesert: `./assets/cards/card_climate_drydesert.png`,
+        biseasonal: `./assets/cards/card_climate_biseasonal.png`,
+        dynamicseasonal: `./assets/cards/card_climate_dynamicseasonal.png`,
+        hotdynamicseasonal: `./assets/cards/card_climate_hotdynamicseasonal.png`,
+        highlandrainworld: `./assets/cards/card_climate_highlandrainworld.png`,
+        sunnydryland: `./assets/cards/card_climate_sunnydryland.png`,
+        hotsunnydryland: `./assets/cards/card_climate_hotsunnydryland.png`,
+        milddesert: `./assets/cards/card_climate_milddesert.png`,
+        mildmagical: `./assets/cards/card_climate_mildmagical.png`,
+        monsoonalrainworld: `./assets/cards/card_climate_monsoonalrainworld.png`,
+        steadyrainworld: `./assets/cards/card_climate_steadyrainworld.png`,
+        tropicalsunscape: `./assets/cards/card_climate_tropicalsunscape.png`,
+        tropicalrainworld: `./assets/cards/card_climate_tropicalrainworld.png`,
+    }
+
+    const heightCards = {
+        sealevelcity: `./assets/cards/card_height_sealevelcity.png`,
+        lowland: `./assets/cards/card_height_lowland.png`,
+        hillhaven: `./assets/cards/card_height_hillhaven.png`,
+        mountainmetro: `./assets/cards/card_height_mountainmetro.png`,
+    }
+
+    const languageCards = {
+        english: `./assets/cards/card_language_english.png`,
+        arabic: `./assets/cards/card_language_arabic.png`,
+        arabicenglish: `./assets/cards/card_language_arabicenglish.png`,
+        bengali: `./assets/cards/card_language_bengali.png`,
+        cantonese: `./assets/cards/card_language_cantonese.png`,
+        spanish: `./assets/cards/card_language_spanish.png`,
+        french: `./assets/cards/card_language_french.png`,
+        frenchlingala: `./assets/cards/card_language_frenchlingala.png`,
+        gujaratienglish: `./assets/cards/card_language_gujaratienglish.png`,
+        hindienglish: `./assets/cards/card_language_hindienglish.png`,
+        indonesian: `./assets/cards/card_language_indonesian.png`,
+        italiano: `./assets/cards/card_language_italiano.png`,
+        japanese: `./assets/cards/card_language_japanese.png`,
+        kannada: `./assets/cards/card_language_kannada.png`,
+        korean: `./assets/cards/card_language_korean.png`,
+        mandarin: `./assets/cards/card_language_mandarin.png`,
+        mandarinenglish: `./assets/cards/card_language_mandarinenglish.png`,
+        marathi: `./assets/cards/card_language_marathi.png`,
+        marathienglish: `./assets/cards/card_language_marathienglish.png`,
+        marathihindi: `./assets/cards/card_language_marathihindi.png`,
+        persian: `./assets/cards/card_language_persian.png`,
+        portuguese: `./assets/cards/card_language_portuguese.png`,
+        russian: `./assets/cards/card_language_russian.png`,
+        tagalog: `./assets/cards/card_language_tagalog.png`,
+        thai: `./assets/cards/card_language_thai.png`,
+        turkish: `./assets/cards/card_language_turkish.png`,
+        urdu: `./assets/cards/card_language_urdu.png`,
+        urduenglish: `./assets/cards/card_language_urduenglish.png`,
+        teluguurdu: `./assets/cards/card_language_teluguurdu.png`,
+        vietnamese: `./assets/cards/card_language_vietnamese.png`,
+        malay: `./assets/cards/card_language_malay.png`,
+        swahili: `./assets/cards/card_language_swahili.png`,
+    }
+
+    const buildCards = {
+        mixedmetro: `./assets/cards/card_build_mixedmetro.png`,
+        modernclassic: `./assets/cards/card_build_modernclassic.png`,
+        boomtown: `./assets/cards/card_build_boomtown.png`,
+        historicheart: `./assets/cards/card_build_historicheart.png`,
+        industrycity: `./assets/cards/card_build_industrycity.png`,
+        hypercity: `./assets/cards/card_build_hypercity.png`,
+        terraintown: `./assets/cards/card_build_terraintown.png`,
+        resorttown: `./assets/cards/card_build_resorttown.png`,
+    }
+
+    const VICTORY_CARD_SETS = {
+        blank: {
+            climate: 'assets/cards/card_climate_unused.png',
+            height: 'assets/cards/card_height_unused.png',
+            language: 'assets/cards/card_language_unused.png',
+            build: 'assets/cards/card_build_unused.png',
+            size: 'assets/pins/pin_unused.png'
+        },
+        matched: {
+            climate: 'assets/cards/card_climate_matched.png',
+            height: 'assets/cards/card_height_matched.png',
+            language: 'assets/cards/card_language_matched.png',
+            build: 'assets/cards/card_build_matched.png',
+            size: 'assets/pins/pin_matched.png'
+        },
+    }
+
+    const guessGrids = [];
+
+    let randomFeature = null;
+    let activeCityId = null;
+    let cityLayers = {};   // key → Leaflet layer
+    let allCityMarkers = []; // for storing all pins
+
+
+    // functional game variables
+    let selectedName = '';
+    let selectedClimate = '';
+    let selectedHeight = '';
+    let selectedLanguage = '';
+    let selectedBuild = '';
+    let selectedSize = '';
+    const selectedClimateCard = document.getElementById('selected-climate-card');
+    selectedClimateCard.src = '';
+    const selectedHeightCard = document.getElementById('selected-height-card');
+    selectedHeightCard.src = '';
+    const selectedLanguageCard = document.getElementById('selected-language-card');
+    selectedLanguageCard.src = '';
+    const selectedBuildCard = document.getElementById('selected-build-card');
+    selectedBuildCard.src = '';
+    const selectedPin = document.getElementById('selected-pin')
+    const selectedToolbar = document.getElementById('selected-toolbar')
+
+
+
+    let targetCity = null;
+    let targetName = '';
+    let targetNameNative = '';
+    let targetClimate = '';
+    let targetHeight = '';
+    let targetLanguage = '';
+    let targetBuild = '';
+    let targetSize = '';
+    let targetWiki = '';
+
+    const targetClimateCard = document.getElementById('target-climate-card');
+    const targetHeightCard = document.getElementById('target-height-card');
+    const targetLanguageCard = document.getElementById('target-language-card');
+    const targetBuildCard = document.getElementById('target-build-card');
+    const targetPin = document.getElementById('target-pin');
+    // filter buttons
+    const sizeFilterBtn = document.getElementById('size-filter-btn')
+    const climateFilterBtn = document.getElementById('climate-filter-btn')
+    const heightFilterBtn = document.getElementById('height-filter-btn')
+    const languageFilterBtn = document.getElementById('language-filter-btn')
+    const buildFilterBtn = document.getElementById('build-filter-btn')
+    sizeFilterBtn.disabled = true;
+    climateFilterBtn.disabled = true;
+    heightFilterBtn.disabled = true;
+    languageFilterBtn.disabled = true;
+    buildFilterBtn.disabled = true;
+
+    const activeFilters = {
+        size: null,
+        climate: null,
+        height: null,
+        language: null,
+        build: null
+    };
+
+
+    // for guessing
+    let climateIsMatched = false;
+    let heightIsMatched = false;
+    let languageIsMatched = false;
+    let buildIsMatched = false;
+    let sizeIsMatched = false;
+    let guessesMade = 0;
+
+
+    // BUTTONS
+    const guessBtn = document.getElementById('guess-btn');
+    const closeBtnIntro = document.getElementById('close-btn-1');
+    const closeBtnToolbar = document.getElementById('close-btn-2');
+    const aboutCreatorBtn = document.getElementById('about-creator-btn');
+
+    // geojson variables to fill when data is loaded
+    let geojsonLayer;
+
+    // Load GeoJSON data
+    axios.get('./data/citylist.geojson').then(response => {
+
+        const geojsonData = response.data;
+
+        // FILTER BY ACTIVE CITIES ONLY
+        const activeFeatures = geojsonData.features.filter(feature => 
+            feature.properties.active === "TRUE"
+        );
+        const activeGeojson = {
+            ...geojsonData,
+            features: activeFeatures
+        };
+
+        // Randomly select a city from the filtered data
+        const features = activeGeojson.features;
+        if (!features || features.length === 0) return;
+
+        randomFeature = 
+            features[Math.floor(Math.random() * features.length)];
+        console.log('randomFeature is:', randomFeature)
+        
+        // GET TARGET TRAITS AND SET VARIABLES
+        targetName = randomFeature.properties.name;
+        targetNameNative = randomFeature.properties.name_native;
+        targetSize = randomFeature.properties.size_tag.toLowerCase().replace(/[^a-z0-9]/g, '');
+        targetClimate = randomFeature.properties.climate_tag.toLowerCase().replace(/[^a-z0-9]/g, '');
+        targetHeight = randomFeature.properties.elevation_tag.toLowerCase().replace(/[^a-z0-9]/g, '');
+        targetLanguage = randomFeature.properties.language_tag.toLowerCase().replace(/[^a-z0-9]/g, '');
+        targetBuild = randomFeature.properties.build_tag.toLowerCase().replace(/[^a-z0-9]/g, '');
+        // GET WIKI for use later in victory screen
+        targetWiki = randomFeature.properties.wiki
+        //console.log('traits are:', targetClimate, targetHeight, targetLanguage, targetBuild)
+
+        // Add GeoJSON layer to the map
+        geojsonLayer = L.geoJSON(activeGeojson, {
+            pointToLayer: (feature, latlng) => {
+                let icon;
+                icon = blankIcon; // set initial icons
+
+                // Set icons by population size
+                if (feature.properties.size_tag === '5medium') {
+                    icon = icon5;
+                }
+                else if (feature.properties.size_tag === '7large') {
+                    icon = icon7;
+                }
+                else if (feature.properties.size_tag === '10mega') {
+                    icon = icon10;
+                }
+                else if (feature.properties.size_tag === '15lmega') {
+                    icon = icon15;
+                }
+                else if (feature.properties.size_tag === '20xlmega') {
+                    icon = icon20;
+                }
+
+                const marker = L.marker(latlng, { icon });
+                    
+                return marker;
+                
+            },
+
+            onEachFeature: (feature, layer) => {
+
+                // export the layer's icons to be used later
+                const cityId = feature.properties.id || feature.properties.name;
+                cityLayers[cityId] = layer;
+                allCityMarkers.push(layer);
+
+                // city name labels
+                layer.bindTooltip(layer.feature.properties.name, {
+                    permanent: true,
+                    direction: 'center',
+                    offset: [0, 5],
+                    className: 'feature-name-label',
+                })
+                        
+                // HOVER HOVER HOVER HOVER HOVER
+                layer.on('mouseover', () => {
+                    if (feature.properties.guessed === 'true') {
+                        return
+                    }
+                    if (feature.properties.size_tag === '5medium') {
+                        layer.setIcon(icon5Hover)
+                    }
+                    else if (feature.properties.size_tag === '7large') {
+                        layer.setIcon(icon7Hover)
+                    }
+                    else if (feature.properties.size_tag === '10mega') {
+                        layer.setIcon(icon10Hover)
+                    }
+                    else if (feature.properties.size_tag === '15lmega') {
+                        layer.setIcon(icon15Hover)
+                    }
+                    else if (feature.properties.size_tag === '20xlmega') {
+                        layer.setIcon(icon20Hover)
+                    }
+                });
+
+                // MOUSEOUT MOUSEOUT MOUSEOUT MOUSEOUT MOUSEOUT MOUSEOUT
+                layer.on('mouseout', () => {
+                    if (feature.properties.guessed === 'true') {
+                        return
+                    }
+                    if (feature.properties.size_tag === '5medium') {
+                        layer.setIcon(icon5)
+                    }
+                    else if (feature.properties.size_tag === '7large') {
+                        layer.setIcon(icon7)
+                    }
+                    else if (feature.properties.size_tag === '10mega') {
+                        layer.setIcon(icon10)
+                    }
+                    else if (feature.properties.size_tag === '15lmega') {
+                        layer.setIcon(icon15)
+                    }
+                    else if (feature.properties.size_tag === '20xlmega') {
+                        layer.setIcon(icon20)
+                    }
+                });
+
+                // CLICK CLICK CLICK CLICK CLICK CLICK CLICK CLICK 
+                layer.on('click', () => {
+                    activeCityId = cityId;
+                    // TODO zoom to pin (center the screen)
+                    showSelectedToolbar(feature.properties.wiki);
+                });
+
+                async function showSelectedToolbar(wiki) {
+                    // hides and shows
+                    const screenDarkener = document.getElementById('screen-darkener')
+                    screenDarkener.style.display = 'block';
+                    const cityPhoto = document.getElementById('city-photo');
+                    selectedToolbar.style.display = 'flex';
+
+                    // if city has not already been guessed, enable the button
+                    if (layer.feature.properties.guessed !== 'true') {
+                        //console.log(layer.feature.properties.name, 'guess is:', layer.feature.properties.guessed)
+                        guessBtn.disabled = false;
+                    } else if (layer.feature.properties.guessed === 'true') {
+                        guessBtn.disabled = true;
+                    }
+            
+                    // get selected traits
+                    selectedClimate = layer.feature.properties.climate_tag.toLowerCase().replace(/[^a-z0-9]/g, '')
+                    selectedHeight = layer.feature.properties.elevation_tag.toLowerCase().replace(/[^a-z0-9]/g, '')
+                    selectedLanguage = layer.feature.properties.language_tag.toLowerCase().replace(/[^a-z0-9]/g, '')
+                    selectedBuild = layer.feature.properties.build_tag.toLowerCase().replace(/[^a-z0-9]/g, '')
+                    selectedSize = layer.feature.properties.size_tag.toLowerCase().replace(/[^a-z0-9]/g, '')
+
+                    // SET NAME AND NATIVE NAME
+                    selectedName = document.getElementById('city-name');
+                    const name = layer.feature.properties.name;
+                    const nameNative = layer.feature.properties.name_native;
+                    // to display foreign language names
+                    if (name !== nameNative) {
+                        selectedName.textContent =  `${name} | ${nameNative}`;
+                    } else if (name === nameNative) {
+                        selectedName.textContent = name;
+                    }
+                    // SET TRAIT CARDS
+                    function randomDelay(min = 50, max = 500) {
+                    return Math.floor(Math.random() * (max - min)) + min;
+                    }
+
+                    setTimeout(() => {
+                    selectedClimateCard.src = climateCards[selectedClimate];
+                    }, randomDelay());
+
+                    setTimeout(() => {
+                    selectedHeightCard.src = heightCards[selectedHeight];
+                    }, randomDelay());
+
+                    setTimeout(() => {
+                    selectedLanguageCard.src = languageCards[selectedLanguage];
+                    }, randomDelay());
+
+                    setTimeout(() => {
+                    selectedBuildCard.src = buildCards[selectedBuild];
+                    }, randomDelay());
+
+                    // show pin
+                    if (feature.properties.size_tag === '5medium') {
+                        selectedPin.src = `./assets/pins/pin_5.png`;
+                    }
+                    if (feature.properties.size_tag === '7large') {
+                        selectedPin.src = `./assets/pins/pin_7.png`;
+                    }
+                    if (feature.properties.size_tag === '10mega') {
+                        selectedPin.src = `./assets/pins/pin_10.png`
+                    }
+                    if (feature.properties.size_tag === '15lmega') {
+                        selectedPin.src = `./assets/pins/pin_15.png`
+                    }
+                    if (feature.properties.size_tag === '20xlmega') {
+                        selectedPin.src = `./assets/pins/pin_20.png`
+                    }
+            
+                    if (!wiki || !cityPhoto) return;
+            
+                    try {
+                        const response = await fetch(
+                        `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wiki)}`
+                        );
+                        if (!response.ok) return;
+            
+                        const data = await response.json();
+            
+                        if (data.originalimage) {
+                        cityPhoto.src = data.originalimage.source;
+                        cityPhoto.style.display = 'flex';
+                        } else if (data.thumbnail) {
+                        cityPhoto.src = data.thumbnail.source;
+                        cityPhoto.style.display = 'flex';
+                        } else {
+                        cityPhoto.style.display = 'none';
+                        }
+            
+                    } catch (err) {
+                        console.error('Wikipedia fetch failed:', err);
+                    }
+                }
+
+            }
+        }) .addTo(map);
+
+
+    }).catch(error => {
+        console.error('Error loading GeoJSON data:', error);
+    });
+    
+    
+    // BUTTON EVENT LISTENERS
+    
+    
+    // closeBtnIntro
+    closeBtnIntro.addEventListener('click', () => {
+        // close start-screen
+        document.getElementById('start-screen').style.display = 'none';
+        document.getElementById('screen-darkener').style.display = 'none';
+    })
+    // guessBtn
+    guessBtn.addEventListener('click', () => {
+        makeGuess()
+    })
+    closeBtnToolbar.addEventListener('click', () => {
+        // close selectedtoolbar
+        selectedToolbar.style.display = 'none';
+        const screenDarkener = document.getElementById('screen-darkener')
+        screenDarkener.style.display = 'none';
+    })
+
+    // filter buttons
+    sizeFilterBtn.addEventListener('click', () => {
+        sizeFilterBtn.classList.toggle('is-active');
+
+        activeFilters.size = sizeFilterBtn.classList.contains('is-active')
+            ? targetSize
+            : null;
+
+        applyFilters();
+    })
+    climateFilterBtn.addEventListener('click', () => {
+        climateFilterBtn.classList.toggle('is-active');
+
+        activeFilters.climate = climateFilterBtn.classList.contains('is-active')
+            ? targetClimate
+            : null;
+
+        applyFilters();
+    })
+    heightFilterBtn.addEventListener('click', () => {
+        heightFilterBtn.classList.toggle('is-active');
+
+        activeFilters.height = heightFilterBtn.classList.contains('is-active')
+            ? targetHeight
+            : null;
+
+        applyFilters();
+    })
+    languageFilterBtn.addEventListener('click', () => {
+        languageFilterBtn.classList.toggle('is-active');
+
+        activeFilters.language = languageFilterBtn.classList.contains('is-active')
+            ? targetLanguage
+            : null;
+
+        applyFilters();
+    })
+    buildFilterBtn.addEventListener('click', () => {
+        buildFilterBtn.classList.toggle('is-active');
+
+        activeFilters.build = buildFilterBtn.classList.contains('is-active')
+            ? targetBuild
+            : null;
+
+        applyFilters();
+    })
+
+    // hide selectedToolbar when screenDarkener is clicked
+    const screenDarkener = document.getElementById('screen-darkener')
+
+    screenDarkener.addEventListener('click', () => {
+        document.getElementById('start-screen').style.display = 'none';
+        selectedToolbar.style.display = 'none';
+        screenDarkener.style.display = 'none';
+    })
+
+    const graphicBtn = document.getElementById('graphic-btn');
+        graphicBtn.addEventListener('click', () => {
+            const victoryScreen = document.getElementById('victory-screen')
+            victoryScreen.style.display = 'none';
+
+            const shareScreen = document.getElementById('share-screen')
+            shareScreen.style.display = 'flex';
+        })
+
+    // About Creator Button event listener
+    aboutCreatorBtn.addEventListener('click', () => {
+        window.open('https://www.bradyhartcreates.com/aboutme');
+    })
+    
+
+
+    // FUNCTIONS
+    
+    // make guess function
+    function makeGuess() {
+        // mark city as guessed
+        const layer = cityLayers[activeCityId];
+        if (!layer) {
+            console.log('no layer')
+            return
+        }
+        layer.feature.properties.guessed = 'true';
+        layer.setIcon(iconGuessed)
+
+
+        // snapshot the current selected traits
+        const original = document.getElementById('selected-traits-grid');
+        const clone = original.cloneNode(true);
+
+        // important cleanup
+        clone.removeAttribute('id');
+        clone.classList.add('share-traits-grid');
+
+        // set target cards if any matches
+        if (targetClimate === selectedClimate) {
+            climateIsMatched = true;
+            targetClimateCard.src = climateCards[selectedClimate]
+            climateFilterBtn.disabled = false;
+        }
+        if (targetHeight === selectedHeight) {
+            heightIsMatched = true;
+            targetHeightCard.src = heightCards[selectedHeight]
+            heightFilterBtn.disabled = false;
+        }
+        if (targetLanguage === selectedLanguage) {
+            languageIsMatched = true;
+            targetLanguageCard.src = languageCards[selectedLanguage]
+            languageFilterBtn.disabled = false;
+        }
+        if (targetBuild === selectedBuild) {
+            buildIsMatched = true;
+            targetBuildCard.src = buildCards[selectedBuild]
+            buildFilterBtn.disabled = false;
+        }
+        if (targetSize === selectedSize) {
+            sizeIsMatched = true;
+            targetPin.src = selectedPin.src;
+            sizeFilterBtn.disabled = false;
+        }
+
+        // Hide everything
+        selectedToolbar.style.display = 'none';
+        screenDarkener.style.display = 'none';    
+
+        // count the guess
+        guessesMade++
+        console.log('Guesses made:', guessesMade)
+
+        // update the guess marker (1-7)
+        const marker = document.getElementById(`guessmarker-${guessesMade}`);
+        if (marker) {
+            marker.src = `./assets/ui_guessmarker.png`;
+        }
+
+        // Check for victory, can happen on any guess
+        const allTraitsMatched =
+            climateIsMatched &&
+            heightIsMatched &&
+            languageIsMatched &&
+            buildIsMatched &&
+            sizeIsMatched;
+
+        if (!allTraitsMatched) {
+            guessGrids.push(clone);
+        }
+
+        if (allTraitsMatched) {
+            triggerGameOverVictory();
+            return;
+        }
+
+        // Failure ONLY happens on final guess
+        if (guessesMade >= 7) {
+            triggerGameOverFailure();
+        }
+
+        return
+    }
+
+    function applyFilters() {
+        allCityMarkers.forEach(layer => {
+            const props = layer.feature.properties;
+            let visible = true;
+
+            if (activeFilters.size &&
+                normalize(props.size_tag) !== activeFilters.size) {
+            visible = false;
+            }
+
+            if (activeFilters.climate &&
+                normalize(props.climate_tag) !== activeFilters.climate) {
+            visible = false;
+            }
+
+            if (activeFilters.height &&
+                normalize(props.elevation_tag) !== activeFilters.height) {
+            visible = false;
+            }
+
+            if (activeFilters.language &&
+                normalize(props.language_tag) !== activeFilters.language) {
+            visible = false;
+            }
+
+            if (activeFilters.build &&
+                normalize(props.build_tag) !== activeFilters.build) {
+            visible = false;
+            }
+
+            if (visible) {
+            map.addLayer(layer);
+            } else {
+            map.removeLayer(layer);
+            }
+        });
+    }
+
+    function normalize(value) {
+    return value
+        ?.toLowerCase()
+        .replace(/[^a-z0-9]/g, '');
+    }
+
+    function createShareGrid(cardSet, extraClass = '') {
+        const grid = document.createElement('div');
+        grid.className = `share-traits-grid ${extraClass}`;
+
+        grid.innerHTML = `
+            <img class="trait-card" src="${cardSet.climate}">
+            <img class="trait-card" src="${cardSet.height}">
+            <img class="trait-card" src="${cardSet.language}">
+            <img class="trait-card" src="${cardSet.build}">
+            <img class="pin-icon" src="${cardSet.size}">
+        `;
+
+        return grid;
+    }
+
+    
+    async function triggerGameOverVictory() {        
+        // hide and show stuff
+        document.getElementById("target-toolbar").style.display = 'none';
+        document.getElementById("end-screen-darkener").style.display = 'block';
+        const victoryScreen = document.getElementById('victory-screen');
+            victoryScreen.style.display = 'flex';
+        // animate victory phrase
+        const victoryTitle = document.getElementById('victory-title');
+            victoryTitle.classList.add('victory-idle');
+
+        // Set target name in the victory message
+        const victoryMessage = document.getElementById('victory-message');
+        if (targetName !== targetNameNative) {
+            victoryMessage.textContent = `You found the town of ${targetName} | ${targetNameNative}`
+        } else if (targetName === targetNameNative) {
+            victoryMessage.textContent = `You found the town of ${targetName}`
+        }
+        
+        // set target photo
+        const targetPhoto = document.getElementById("found-target-photo");
+        
+        // get wiki info for the photo
+        const wiki = targetWiki;
+        try {
+                const response = await fetch(
+                `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wiki)}`
+                );
+                if (!response.ok) return;
+    
+                const data = await response.json();
+    
+                if (data.originalimage) {
+                    targetPhoto.src = data.originalimage.source;
+                    targetPhoto.style.display = 'flex';
+                } else if (data.thumbnail) {
+                    targetPhoto.src = data.thumbnail.source;
+                    targetPhoto.style.display = 'flex';
+                } else {
+                    targetPhoto.style.display = 'none';
+                }
+    
+            } catch (err) {
+                console.error('Wikipedia fetch failed:', err);
+            }
+
+
+        // append the trait cards grid to the victory screen
+        const traitsGrid = document.getElementById('selected-traits-grid');
+        if (!traitsGrid || !victoryScreen) return;
+        const victoryCta = document.getElementById('victory-cta');
+        victoryScreen.insertBefore(traitsGrid, victoryCta);
+
+        const shareGuesses = document.getElementById('share-guesses-container');
+        shareGuesses.innerHTML = '';
+
+        guessGrids.forEach(grid => {
+            shareGuesses.appendChild(grid)
+        });
+
+        shareGuesses.appendChild(
+            createShareGrid(VICTORY_CARD_SETS.matched, 'solved-grid')
+        );
+
+        // needs to be one less than total guesses. 
+        const remaining = 6 - guessGrids.length;
+
+        for (let i = 0; i< remaining; i++) {
+            shareGuesses.appendChild(
+                createShareGrid(VICTORY_CARD_SETS.blank, 'unused-grid')
+            );
+        }
+
+        return
+    }
+
+    async function triggerGameOverFailure() {
+        // hide target-toolbar
+        document.getElementById("target-toolbar").style.display = 'none';
+        // show end screen darkener
+        document.getElementById("end-screen-darkener").style.display = 'block';
+        // show failure screen
+        document.getElementById("failure-screen").style.display = 'flex';
+
+        // Set failure message
+        const failureMessage = document.getElementById('failure-message');
+        if (targetName !== targetNameNative) {
+            failureMessage.textContent = `The town of the day was ${targetName} | ${targetNameNative}`
+        } else if (targetName === targetNameNative) {
+            failureMessage.textContent = `The town of the day was ${targetName}`
+        }
+        
+        
+        // set target photo
+        const targetPhoto = document.getElementById("target-photo");
+        
+        // get wiki info for the target photo
+        const wiki = targetWiki;
+
+        try {
+            const response = await fetch(
+            `https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(wiki)}`
+            );
+            if (!response.ok) return;
+
+            const data = await response.json();
+
+            if (data.originalimage) {
+                targetPhoto.src = data.originalimage.source;
+                targetPhoto.style.display = 'flex';
+            } else if (data.thumbnail) {
+                targetPhoto.src = data.thumbnail.source;
+                targetPhoto.style.display = 'flex';
+            } else {
+                targetPhoto.style.display = 'none';
+            }
+
+        } catch (err) {
+            console.error('Wikipedia fetch failed:', err);
+        }
+
+        const playAgainBtn = document.getElementById("play-again-btn");
+        playAgainBtn.addEventListener('click', () => {
+            window.location.reload(true); // hard refresh the page
+        })
+
+        return
+    }
+
+</script>
+    
+
+</body>
+</html>

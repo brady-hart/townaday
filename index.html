@@ -191,7 +191,9 @@
         }
         @media (max-width: 768px) {
             #share-screen {
-                transform: scale(.9) translate(0%, -35%)
+                transform: scale(.9) translate(0%, -35%);
+                width: 100vw;
+                height: 100vh;
             }
         }
         @keyframes victory-breathe {
@@ -640,6 +642,18 @@
         iconAnchor: [anchorX/divisionFactor, iconSizeY/divisionFactor],
         className: `custom-icon`
     })
+    const icon4 = L.icon({
+        iconUrl: `./assets/pins/pin_4.png`,
+        iconSize: [xxxSmallIconSizeX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
+    const icon4Hover = L.icon({
+        iconUrl: `./assets/pins/pin_4_hover.png`,
+        iconSize: [xxxSmallIconSizeX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        iconAnchor: [anchorX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
+        className: `custom-icon`
+    })
     const icon5 = L.icon({
         iconUrl: `./assets/pins/pin_5.png`,
         iconSize: [xxxSmallIconSizeX/divisionFactor, xxxSmallIconSizeY/divisionFactor],
@@ -710,6 +724,7 @@
     
     const pinIcons = {
         pinBlank: `./assets/pins/pin_blank.png`,
+        pin4: `./assets/pins/pin_4.png`,
         pin5: `./assets/pins/pin_5.png`,
         pin7: `./assets/pins/pin_7.png`,
         pin10: `./assets/pins/pin_10.png`,
@@ -748,6 +763,7 @@
         arabicenglish: `./assets/cards/card_language_arabicenglish.png`,
         bengali: `./assets/cards/card_language_bengali.png`,
         bengalienglish: `./assets/cards/card_language_bengalienglish.png`,
+        burmese: `./assets/cards/card_language_burmese.png`,
         cantonese: `./assets/cards/card_language_cantonese.png`,
         spanish: `./assets/cards/card_language_spanish.png`,
         french: `./assets/cards/card_language_french.png`,
@@ -930,7 +946,10 @@
                 icon = blankIcon; // set initial icons
 
                 // Set icons by population size
-                if (feature.properties.size_tag === '5medium') {
+                if (feature.properties.size_tag === '4small') {
+                    icon = icon4;
+                }
+                else if (feature.properties.size_tag === '5medium') {
                     icon = icon5;
                 }
                 else if (feature.properties.size_tag === '7large') {
@@ -972,7 +991,10 @@
                     if (feature.properties.guessed === 'true') {
                         return
                     }
-                    if (feature.properties.size_tag === '5medium') {
+                    if (feature.properties.size_tag === '4small') {
+                        layer.setIcon(icon4Hover)
+                    }
+                    else if (feature.properties.size_tag === '5medium') {
                         layer.setIcon(icon5Hover)
                     }
                     else if (feature.properties.size_tag === '7large') {
@@ -993,6 +1015,9 @@
                 layer.on('mouseout', () => {
                     if (feature.properties.guessed === 'true') {
                         return
+                    }
+                    if (feature.properties.size_tag === '4small') {
+                        layer.setIcon(icon4)
                     }
                     if (feature.properties.size_tag === '5medium') {
                         layer.setIcon(icon5)
@@ -1072,6 +1097,9 @@
                     }, randomDelay());
 
                     // show pin
+                    if (feature.properties.size_tag === '4small') {
+                        selectedPin.src = `./assets/pins/pin_4.png`;
+                    }
                     if (feature.properties.size_tag === '5medium') {
                         selectedPin.src = `./assets/pins/pin_5.png`;
                     }

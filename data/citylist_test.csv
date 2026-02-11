@@ -120,16 +120,16 @@ Suzhou,116.9683,33.6333,China,5324476,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,
 Yongzhou,111.613,26.42,China,5289824,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Yongzhou
 Changde,111.699,29.031,China,5279102,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Changde
 Xiangyang,112.122,32.01,China,5260951,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Xiangyang
-Rangoon,96.16,16.795,Burma,5209541,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Rangoon
-Atlanta,-84.422,33.7628,United States,5180179,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Atlanta
-Washington,-77.0163,38.9047,United States,5116378,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Washington
+Yangon,96.16,16.795,Burma,5209541,5medium,monsoonalrainworld,Tropical_monsoon_climate,Burmese,Boomtown,TRUE,guaranteed,FALSE,,မဟာရန်ကုန်,Yangon,Tropical_monsoon_climate,,15m (49 ft),မြန်မာဘာသာစကား,,Burmese_language,,Yangon
+Atlanta,-84.422,33.7628,United States,5180179,5medium,biseasonal,Hill Haven,English,Modern Classic,TRUE,guaranteed,FALSE,,Atlanta,Atlanta,Humid_subtropical_climate,humid subtropical with generous precipitation year-round,"1,050 ft (320 m)",English,,English_language,,Atlanta
+Washington,-77.0163,38.9047,United States,5116378,5medium,biseasonal,Lowland,English,Modern Classic,TRUE,guaranteed,FALSE,,"Washington, D.C.","Washington,_D.C.",Humid_subtropical_climate,temperate,409 ft (125 m),English,,,,Washington
 Zhaotong,103.717,27.338,China,5092611,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Zhaotong
 Zhangzhou,117.647,24.513,China,5054328,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Zhangzhou
-Melbourne,144.9631,-37.8142,Australia,5031195,5medium,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Melbourne
+Melbourne,144.9631,-37.8142,Australia,5031195,5medium,steadyrainworld,Sealevel City,English,Modern Classic,TRUE,guaranteed,FALSE,,Melbourne,Melbourne,Oceanic_climate,Temperate oceanic climate,31 m (102 ft),,,,,Melbourne
 Yichun,114.417,27.816,China,5007702,5medium,,,,,FALSE,draw,FALSE,,,,,,,,,,,Yichun
 Bozhou,115.7742,33.8626,China,4996844,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Bozhou
 Suqian,118.2831,33.9331,China,4986192,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Suqian
-Abidjan,-4.0333,5.3167,C√¥te d‚ÄôIvoire,4980000,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Abidjan
+Abidjan,-4.0333,5.3167,C√¥te d‚ÄôIvoire,4980000,4Small,Tropical Sunscape,Sealevel City,French,Mixed Metro,TRUE,guaranteed,FALSE,,Abidjan,Abidjan,Tropical_savanna_climate,,18 m (59 ft),French,,French_language,,Abidjan
 Ji'an,114.9668,27.0912,China,4956600,4Small,,,,,FALSE,draw,FALSE,,,,,,,,,,,Ji‚Äôan
 Guilin,110.296,25.275,China,4931137,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Guilin
 Pingdingshan,113.2999,33.735,China,4904701,4Small,,,,,FALSE,guaranteed,FALSE,,,,,,,,,,,Pingdingshan
